@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Proyecto_programacion_3
 {
-    public partial class Inicio : Form
+    public partial class Registrarse : Form
     {
-        public Inicio()
+        public Registrarse()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
