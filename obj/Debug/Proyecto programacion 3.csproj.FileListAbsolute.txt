@@ -2,9 +2,12 @@ H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\bin\De
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.exe
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.pdb
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csprojAssemblyReference.cache
-H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.Inicio.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.Properties.Resources.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.GenerateResource.cache
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.CoreCompileInputs.cache
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.exe
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.pdb
+H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmContacto.resources
+H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmInicio.resources
+H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmLogin.resources
+H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmRegistrarse.resources

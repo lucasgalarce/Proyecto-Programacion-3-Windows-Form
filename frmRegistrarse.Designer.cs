@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_programacion_3
 {
-    partial class Registrarse
+    partial class frmRegistrarse
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@
             this.newPassword = new System.Windows.Forms.TextBox();
             this.confirmPassword = new System.Windows.Forms.TextBox();
             this.mail = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.register = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -122,22 +122,22 @@
             this.mail.Size = new System.Drawing.Size(249, 26);
             this.mail.TabIndex = 1;
             // 
-            // button1
+            // register
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(175, 270);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 47);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Registrarse";
-            this.button1.UseVisualStyleBackColor = true;
+            this.register.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.register.Location = new System.Drawing.Point(175, 270);
+            this.register.Name = "register";
+            this.register.Size = new System.Drawing.Size(173, 47);
+            this.register.TabIndex = 6;
+            this.register.Text = "Registrarse";
+            this.register.UseVisualStyleBackColor = true;
             // 
             // Registrarse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 403);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.register);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -165,6 +165,6 @@
         private System.Windows.Forms.TextBox newPassword;
         private System.Windows.Forms.TextBox confirmPassword;
         private System.Windows.Forms.TextBox mail;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button register;
     }
 }

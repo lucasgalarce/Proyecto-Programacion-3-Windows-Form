@@ -10,26 +10,29 @@ using System.Windows.Forms;
 
 namespace Proyecto_programacion_3
 {
-    public partial class Inicio : Form
+    public partial class frmLogin : Form
     {
-        public Inicio()
+        private frmInicio inicio;
+        public frmLogin()
         {
             InitializeComponent();
+            inicio = new frmInicio();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
+            inicio.Show();
+            this.Hide();
         }
     }
 }

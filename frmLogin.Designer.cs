@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_programacion_3
 {
-    partial class Login
+    partial class frmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,28 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.userLogin = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.labelUser = new System.Windows.Forms.Label();
             this.user = new System.Windows.Forms.TextBox();
             this.password = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // userLogin
             // 
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(201, 255);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 47);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
+            this.userLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userLogin.Location = new System.Drawing.Point(201, 255);
+            this.userLogin.Name = "userLogin";
+            this.userLogin.Size = new System.Drawing.Size(141, 47);
+            this.userLogin.TabIndex = 0;
+            this.userLogin.Text = "Login";
+            this.userLogin.UseVisualStyleBackColor = true;
+            this.userLogin.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -106,18 +107,6 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "¿No tiene cuenta?";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = global::Proyecto_programacion_3.Properties.Resources.images__1_;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(222, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 103);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -138,7 +127,19 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Registrarse";
             // 
-            // Inicio
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::Proyecto_programacion_3.Properties.Resources.images__1_;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(222, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(99, 103);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,8 +153,8 @@
             this.Controls.Add(this.user);
             this.Controls.Add(this.labelUser);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Inicio";
+            this.Controls.Add(this.userLogin);
+            this.Name = "Login";
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -164,7 +165,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button userLogin;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label labelUser;
         private System.Windows.Forms.TextBox user;

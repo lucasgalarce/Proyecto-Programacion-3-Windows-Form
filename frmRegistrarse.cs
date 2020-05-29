@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_programacion_3
 {
-    public partial class Registrarse : Form
+    public partial class frmRegistrarse : Form
     {
-        public Registrarse()
+        public frmRegistrarse()
         {
             InitializeComponent();
         }
