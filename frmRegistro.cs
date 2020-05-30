@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Proyecto_programacion_3
 {
-    public partial class frmRegistrarse : Form
+    public partial class frmRegistro : Form
     {
-        public frmRegistrarse()
+        private frmLogin login;
+        public frmRegistro()
         {
             InitializeComponent();
+            //login = new frmLogin();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //login.Show();
         }
     }
 }

@@ -37,11 +37,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.preArmados = new System.Windows.Forms.ComboBox();
+            this.checkBoxMicro1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMicro2 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMicro4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMicro3 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,6 +50,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -130,6 +134,7 @@
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Proceder a pago";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -142,53 +147,53 @@
             this.linkLabel2.Text = "Contacto";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
-            // comboBox1
+            // preArmados
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(73, 41);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(271, 21);
-            this.comboBox1.TabIndex = 6;
+            this.preArmados.FormattingEnabled = true;
+            this.preArmados.Location = new System.Drawing.Point(73, 41);
+            this.preArmados.Name = "preArmados";
+            this.preArmados.Size = new System.Drawing.Size(271, 21);
+            this.preArmados.TabIndex = 6;
             // 
-            // checkBox1
+            // checkBoxMicro1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(321, 221);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(67, 17);
-            this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "i3 7800k";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxMicro1.AutoSize = true;
+            this.checkBoxMicro1.Location = new System.Drawing.Point(321, 221);
+            this.checkBoxMicro1.Name = "checkBoxMicro1";
+            this.checkBoxMicro1.Size = new System.Drawing.Size(67, 17);
+            this.checkBoxMicro1.TabIndex = 8;
+            this.checkBoxMicro1.Text = "i3 7800k";
+            this.checkBoxMicro1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBoxMicro2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(679, 221);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(67, 17);
-            this.checkBox2.TabIndex = 8;
-            this.checkBox2.Text = "i5 7600k";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxMicro2.AutoSize = true;
+            this.checkBoxMicro2.Location = new System.Drawing.Point(679, 221);
+            this.checkBoxMicro2.Name = "checkBoxMicro2";
+            this.checkBoxMicro2.Size = new System.Drawing.Size(67, 17);
+            this.checkBoxMicro2.TabIndex = 8;
+            this.checkBoxMicro2.Text = "i5 7600k";
+            this.checkBoxMicro2.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBoxMicro4
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(679, 404);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(67, 17);
-            this.checkBox3.TabIndex = 8;
-            this.checkBox3.Text = "i9 9900k";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxMicro4.AutoSize = true;
+            this.checkBoxMicro4.Location = new System.Drawing.Point(679, 404);
+            this.checkBoxMicro4.Name = "checkBoxMicro4";
+            this.checkBoxMicro4.Size = new System.Drawing.Size(67, 17);
+            this.checkBoxMicro4.TabIndex = 8;
+            this.checkBoxMicro4.Text = "i9 9900k";
+            this.checkBoxMicro4.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBoxMicro3
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(321, 404);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(67, 17);
-            this.checkBox4.TabIndex = 8;
-            this.checkBox4.Text = "i7 8800k";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBoxMicro3.AutoSize = true;
+            this.checkBoxMicro3.Location = new System.Drawing.Point(321, 404);
+            this.checkBoxMicro3.Name = "checkBoxMicro3";
+            this.checkBoxMicro3.Size = new System.Drawing.Size(67, 17);
+            this.checkBoxMicro3.TabIndex = 8;
+            this.checkBoxMicro3.Text = "i7 8800k";
+            this.checkBoxMicro3.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -267,11 +272,51 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // Inicio
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(324, 302);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Stock";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(678, 302);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Stock";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(324, 484);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(35, 13);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Stock";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(678, 484);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(35, 13);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "Stock";
+            // 
+            // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 590);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -280,11 +325,11 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.checkBoxMicro3);
+            this.Controls.Add(this.checkBoxMicro4);
+            this.Controls.Add(this.checkBoxMicro2);
+            this.Controls.Add(this.checkBoxMicro1);
+            this.Controls.Add(this.preArmados);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label3);
@@ -294,7 +339,7 @@
             this.Controls.Add(this.micro);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Inicio";
+            this.Name = "frmInicio";
             this.Text = "Inicio";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -316,18 +361,22 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.ComboBox preArmados;
+        private System.Windows.Forms.CheckBox checkBoxMicro1;
+        private System.Windows.Forms.CheckBox checkBoxMicro2;
+        private System.Windows.Forms.CheckBox checkBoxMicro4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBoxMicro3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }

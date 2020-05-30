@@ -13,10 +13,12 @@ namespace Proyecto_programacion_3
     public partial class frmLogin : Form
     {
         private frmInicio inicio;
+        private frmRegistro registro;
         public frmLogin()
         {
             InitializeComponent();
             inicio = new frmInicio();
+            registro = new frmRegistro();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -32,7 +34,18 @@ namespace Proyecto_programacion_3
         private void button1_Click(object sender, EventArgs e)
         {
             inicio.Show();
-            this.Hide();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            registro.Show();
+            Hide();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

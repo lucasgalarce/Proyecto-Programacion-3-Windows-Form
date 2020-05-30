@@ -10,4 +10,5 @@ H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\De
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmContacto.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmInicio.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmLogin.resources
-H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmRegistrarse.resources
+H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmPago.resources
+H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmRegistro.resources

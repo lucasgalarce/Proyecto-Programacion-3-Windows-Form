@@ -13,10 +13,12 @@ namespace Proyecto_programacion_3
     public partial class frmInicio : Form
     {
         private frmContacto contacto;
+        private frmPago pago;
         public frmInicio()
         {
             InitializeComponent();
             contacto = new frmContacto();
+            pago = new frmPago();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,6 +39,12 @@ namespace Proyecto_programacion_3
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             contacto.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            pago.Show();
+            Hide();
         }
     }
 }
