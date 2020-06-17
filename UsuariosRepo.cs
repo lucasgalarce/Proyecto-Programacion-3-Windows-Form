@@ -16,8 +16,10 @@ namespace Proyecto_programacion_3
             Usuario nuevoUsuario = new Usuario(nombre, contrasena);
 
             ListaUsuarios.Add(nuevoUsuario);
+         
 
         }
+
 
     }
 }

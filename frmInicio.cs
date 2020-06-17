@@ -28,6 +28,11 @@ namespace Proyecto_programacion_3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            groupMicros1.Visible = true;
+
+            //groupMother.Visible = false;
+            //groupDisco.Visible = false;
+            //groupMemoria.Visible = false;
 
         }
 
@@ -45,6 +50,26 @@ namespace Proyecto_programacion_3
         {
             pago.Show();
             Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupMicro2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mother_Click(object sender, EventArgs e)
+        {
+            groupMicros1.Visible = false;
+
+            //groupMother.Visible = true;
+
+            //groupDisco.Visible = false;
+            //groupMemoria.Visible = false;
         }
     }
 }

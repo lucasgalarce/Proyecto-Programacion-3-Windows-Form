@@ -35,23 +35,48 @@ namespace Proyecto_programacion_3
             if ((txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin")) {
 
                 MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome",MessageBoxButtons.OK);
-                
-                
-                 //frmAdmin administrador = new frmAdmin();
-                 //administrador.show();
-                 //this.hide();
+
+                frmInicio inicio = new frmInicio();
+                inicio.Show();
+
+                this.Hide();
+
+
+                //frmAdmin administrador = new frmAdmin();
+                //administrador.show();
+                //this.hide();
             }
+        //    if((txtUsuario.Text != "") && (txtContrasena.Text != ""))
+        //    {
+        //        if ()
+        //        {
 
-           
+                    
+        //            MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        //           
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("El Usuario o la Contraseña es Incorrecta", "Error 604", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        }
 
 
-            frmInicio inicio = new frmInicio();
-            inicio.Show();
 
-            this.Hide();
+           // }
+            else
+            {
+               MessageBox.Show("Complete todos los campos", "Error 500", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+           }
+
+
+            
+
+
         }
 
-     
+
 
         private void link_Registrarse_Click(object sender, LinkLabelLinkClickedEventArgs e)
         {
