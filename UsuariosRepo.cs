@@ -8,7 +8,7 @@ namespace Proyecto_programacion_3
 {
     class UsuariosRepo
     {
-        static List<Usuario> ListaUsuarios = new List<Usuario>();
+        public static List<Usuario> ListaUsuarios = new List<Usuario>();
 
         public static void agregarUsuario(string nombre, string contrasena)
         {
@@ -20,7 +20,26 @@ namespace Proyecto_programacion_3
 
         }
 
+        public static bool buscarUsuario(string nombre, string contrasena)
+        {
 
+
+            foreach (Usuario _usuario in ListaUsuarios)
+            {
+
+                if(_usuario.nombre == nombre && _usuario.contrasena == contrasena)
+                {
+
+                    return true;
+
+                    
+                }
+
+
+
+            }
+            return false;
+        }
     }
 }
 

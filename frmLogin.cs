@@ -32,48 +32,47 @@ namespace Proyecto_programacion_3
         private void btn_Login_Click(object sender, EventArgs e)
         {
 
-            if ((txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin")) {
+            if ((txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin"))
+            {
 
-                MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome",MessageBoxButtons.OK);
+                MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome", MessageBoxButtons.OK);
 
-                frmInicio inicio = new frmInicio();
-                inicio.Show();
 
+                frmAdmin administrador = new frmAdmin();
+                administrador.Show();
                 this.Hide();
 
-
-                //frmAdmin administrador = new frmAdmin();
-                //administrador.show();
-                //this.hide();
             }
-        //    if((txtUsuario.Text != "") && (txtContrasena.Text != ""))
-        //    {
-        //        if ()
-        //        {
 
-                    
-        //            MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
+            {
+                
 
-        //           
-        //        }
-        //        else
-        //        {
-        //            MessageBox.Show("El Usuario o la Contraseña es Incorrecta", "Error 604", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        }
+                if (UsuariosRepo.buscarUsuario(txtUsuario.Text,txtContrasena.Text))
+                {
 
+                    MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frmInicio inicio = new frmInicio();
+                    inicio.Show();
 
+                    this.Hide();
 
-           // }
+                }
+                else
+                {
+
+                    MessageBox.Show("El Usuario o la Contraseña es Incorrecta", "Error 604", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
+            }
             else
             {
-               MessageBox.Show("Complete todos los campos", "Error 500", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-           }
+                MessageBox.Show("Complete todos los campos", "Error 500", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 
-            
-
-
+              
+            }
         }
 
 

@@ -26,8 +26,10 @@ namespace Proyecto_programacion_3
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //inicio.Show();
-            //this.Hide();
+            inicio = new frmInicio();
+            inicio.Show();
+
+            this.Hide();
         }
     }
 }

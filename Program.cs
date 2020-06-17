@@ -24,6 +24,8 @@ namespace Proyecto_programacion_3
             MicrosRepo.agregarMicros("I7-4700", 5000, "Micro de baja gama", 4);
             MicrosRepo.agregarMicros("I9-4700", 5000, "Micro de baja gama", 4);
 
+
+                                
         }
 
 

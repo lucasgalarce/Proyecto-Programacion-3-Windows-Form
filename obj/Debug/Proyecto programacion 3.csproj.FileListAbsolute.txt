@@ -40,3 +40,4 @@ C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-
 C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.CoreCompileInputs.cache
 C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.exe
 C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.pdb
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmAdmin.resources
