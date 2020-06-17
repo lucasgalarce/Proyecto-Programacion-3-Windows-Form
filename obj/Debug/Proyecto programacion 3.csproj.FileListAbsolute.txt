@@ -12,3 +12,31 @@ H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\De
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmLogin.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmPago.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmRegistro.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\bin\Debug\Proyecto programacion 3.exe.config
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\bin\Debug\Proyecto programacion 3.exe
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\bin\Debug\Proyecto programacion 3.pdb
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto programacion 3.csprojAssemblyReference.cache
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto_programacion_3.frmContacto.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto_programacion_3.frmInicio.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto_programacion_3.frmLogin.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto_programacion_3.frmPago.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto_programacion_3.frmRegistro.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto_programacion_3.Properties.Resources.resources
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto programacion 3.csproj.GenerateResource.cache
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto programacion 3.csproj.CoreCompileInputs.cache
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto programacion 3.exe
+C:\Users\HackUdowN\Downloads\Proyecto-Programacion-3-Windows-Form-master (3)\Proyecto-Programacion-3-Windows-Form-master\obj\Debug\Proyecto programacion 3.pdb
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.exe.config
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.exe
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.pdb
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csprojAssemblyReference.cache
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmContacto.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmInicio.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmLogin.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmPago.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmRegistro.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.Properties.Resources.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.GenerateResource.cache
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.CoreCompileInputs.cache
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.exe
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.pdb

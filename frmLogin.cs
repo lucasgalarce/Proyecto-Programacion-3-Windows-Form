@@ -12,13 +12,11 @@ namespace Proyecto_programacion_3
 {
     public partial class frmLogin : Form
     {
-        private frmInicio inicio;
-        private frmRegistro registro;
+        
         public frmLogin()
         {
             InitializeComponent();
-            inicio = new frmInicio();
-            registro = new frmRegistro();
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -31,21 +29,36 @@ namespace Proyecto_programacion_3
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Login_Click(object sender, EventArgs e)
         {
+
+            if ((txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin")) {
+
+                MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome",MessageBoxButtons.OK);
+                
+                
+                 //frmAdmin administrador = new frmAdmin();
+                 //administrador.show();
+                 //this.hide();
+            }
+
+           
+
+
+            frmInicio inicio = new frmInicio();
             inicio.Show();
-            Hide();
+
+            this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+     
+
+        private void link_Registrarse_Click(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            frmRegistro registro = new frmRegistro();
             registro.Show();
-            Hide();
-        }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
+            this.Hide();
         }
     }
 }

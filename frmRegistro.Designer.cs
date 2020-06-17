@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.volverLogin = new System.Windows.Forms.LinkLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
-            this.confirmPassword = new System.Windows.Forms.TextBox();
+            this.Usuario = new System.Windows.Forms.TextBox();
+            this.Contra = new System.Windows.Forms.TextBox();
+            this.confirmContra = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.mail = new System.Windows.Forms.TextBox();
+            this.Mail = new System.Windows.Forms.TextBox();
             this.registrarse = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -82,29 +82,29 @@
             this.volverLogin.Text = "Volver al login";
             this.volverLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // textBox1
+            // Usuario
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(239, 80);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 26);
-            this.textBox1.TabIndex = 4;
+            this.Usuario.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Usuario.Location = new System.Drawing.Point(239, 80);
+            this.Usuario.Name = "Usuario";
+            this.Usuario.Size = new System.Drawing.Size(200, 26);
+            this.Usuario.TabIndex = 4;
             // 
-            // password
+            // Contra
             // 
-            this.password.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password.Location = new System.Drawing.Point(239, 118);
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(200, 26);
-            this.password.TabIndex = 4;
+            this.Contra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Contra.Location = new System.Drawing.Point(239, 118);
+            this.Contra.Name = "Contra";
+            this.Contra.Size = new System.Drawing.Size(200, 26);
+            this.Contra.TabIndex = 4;
             // 
-            // confirmPassword
+            // confirmContra
             // 
-            this.confirmPassword.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confirmPassword.Location = new System.Drawing.Point(239, 158);
-            this.confirmPassword.Name = "confirmPassword";
-            this.confirmPassword.Size = new System.Drawing.Size(200, 26);
-            this.confirmPassword.TabIndex = 4;
+            this.confirmContra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.confirmContra.Location = new System.Drawing.Point(239, 158);
+            this.confirmContra.Name = "confirmContra";
+            this.confirmContra.Size = new System.Drawing.Size(200, 26);
+            this.confirmContra.TabIndex = 4;
             // 
             // label4
             // 
@@ -116,13 +116,13 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Mail";
             // 
-            // mail
+            // Mail
             // 
-            this.mail.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mail.Location = new System.Drawing.Point(239, 209);
-            this.mail.Name = "mail";
-            this.mail.Size = new System.Drawing.Size(200, 26);
-            this.mail.TabIndex = 6;
+            this.Mail.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mail.Location = new System.Drawing.Point(239, 209);
+            this.Mail.Name = "Mail";
+            this.Mail.Size = new System.Drawing.Size(200, 26);
+            this.Mail.TabIndex = 6;
             // 
             // registrarse
             // 
@@ -132,6 +132,7 @@
             this.registrarse.TabIndex = 7;
             this.registrarse.Text = "Registrarse";
             this.registrarse.UseVisualStyleBackColor = true;
+            this.registrarse.Click += new System.EventHandler(this.registrarse_Click);
             // 
             // frmRegistro
             // 
@@ -139,11 +140,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 448);
             this.Controls.Add(this.registrarse);
-            this.Controls.Add(this.mail);
+            this.Controls.Add(this.Mail);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.confirmPassword);
-            this.Controls.Add(this.password);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.confirmContra);
+            this.Controls.Add(this.Contra);
+            this.Controls.Add(this.Usuario);
             this.Controls.Add(this.volverLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -161,11 +162,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel volverLogin;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox password;
-        private System.Windows.Forms.TextBox confirmPassword;
+        private System.Windows.Forms.TextBox Usuario;
+        private System.Windows.Forms.TextBox Contra;
+        private System.Windows.Forms.TextBox confirmContra;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox mail;
+        private System.Windows.Forms.TextBox Mail;
         private System.Windows.Forms.Button registrarse;
     }
 }
