@@ -9,6 +9,7 @@ namespace Proyecto_programacion_3
     class UsuariosRepo
     {
         public static List<Usuario> ListaUsuarios = new List<Usuario>();
+        public static List<Usuario> pruebauser;
 
         public static void agregarUsuario(string nombre, string contrasena)
         {
@@ -19,6 +20,17 @@ namespace Proyecto_programacion_3
          
 
         }
+        //cambios para probar
+        //public UsuariosRepo()
+        //{
+        //    pruebauser = new List<Usuario>();
+        //}
+        // OJO ACA
+        //public void agregar(Usuario u)
+        //{
+
+        //    pruebauser.Add(u);
+        //}
 
         public static bool buscarUsuario(string nombre, string contrasena)
         {

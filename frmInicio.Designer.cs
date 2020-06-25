@@ -48,11 +48,18 @@
             this.label11 = new System.Windows.Forms.Label();
             this.groupMicros1 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.imgMicro4 = new System.Windows.Forms.PictureBox();
+            this.imgMicro3 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.imgMicro1 = new System.Windows.Forms.PictureBox();
+            this.imgMicro2 = new System.Windows.Forms.PictureBox();
             this.checkBoxMicro2 = new System.Windows.Forms.CheckBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblPreCargados = new System.Windows.Forms.Label();
             this.groupMother1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -63,9 +70,13 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.groupMemoria1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -76,9 +87,13 @@
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.groupDisco1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
@@ -89,44 +104,29 @@
             this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.imgMicro4 = new System.Windows.Forms.PictureBox();
-            this.imgMicro3 = new System.Windows.Forms.PictureBox();
-            this.imgMicro1 = new System.Windows.Forms.PictureBox();
-            this.imgMicro2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupMicros1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro2)).BeginInit();
             this.groupMother1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupMemoria1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.groupDisco1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -340,6 +340,27 @@
             this.label9.TabIndex = 11;
             this.label9.Text = "Stock";
             // 
+            // imgMicro4
+            // 
+            this.imgMicro4.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
+            this.imgMicro4.Location = new System.Drawing.Point(421, 184);
+            this.imgMicro4.Name = "imgMicro4";
+            this.imgMicro4.Size = new System.Drawing.Size(139, 107);
+            this.imgMicro4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgMicro4.TabIndex = 9;
+            this.imgMicro4.TabStop = false;
+            // 
+            // imgMicro3
+            // 
+            this.imgMicro3.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
+            this.imgMicro3.Location = new System.Drawing.Point(96, 184);
+            this.imgMicro3.Name = "imgMicro3";
+            this.imgMicro3.Size = new System.Drawing.Size(139, 107);
+            this.imgMicro3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgMicro3.TabIndex = 9;
+            this.imgMicro3.TabStop = false;
+            this.imgMicro3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -348,6 +369,26 @@
             this.label5.Size = new System.Drawing.Size(37, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Precio";
+            // 
+            // imgMicro1
+            // 
+            this.imgMicro1.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
+            this.imgMicro1.Location = new System.Drawing.Point(96, 40);
+            this.imgMicro1.Name = "imgMicro1";
+            this.imgMicro1.Size = new System.Drawing.Size(139, 107);
+            this.imgMicro1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgMicro1.TabIndex = 9;
+            this.imgMicro1.TabStop = false;
+            // 
+            // imgMicro2
+            // 
+            this.imgMicro2.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
+            this.imgMicro2.Location = new System.Drawing.Point(421, 40);
+            this.imgMicro2.Name = "imgMicro2";
+            this.imgMicro2.Size = new System.Drawing.Size(139, 107);
+            this.imgMicro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgMicro2.TabIndex = 9;
+            this.imgMicro2.TabStop = false;
             // 
             // checkBoxMicro2
             // 
@@ -406,6 +447,36 @@
             this.groupMother1.TabStop = false;
             this.groupMother1.Text = "Mothers";
             this.groupMother1.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
+            this.pictureBox1.Location = new System.Drawing.Point(421, 195);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
+            this.pictureBox2.Location = new System.Drawing.Point(421, 40);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
+            this.pictureBox5.Location = new System.Drawing.Point(96, 195);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabStop = false;
             // 
             // label4
             // 
@@ -499,6 +570,16 @@
             this.label17.TabIndex = 10;
             this.label17.Text = "Precio";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
+            this.pictureBox3.Location = new System.Drawing.Point(96, 40);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
@@ -545,6 +626,36 @@
             this.groupMemoria1.TabStop = false;
             this.groupMemoria1.Text = "Memorias RAM";
             this.groupMemoria1.Visible = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
+            this.pictureBox14.Location = new System.Drawing.Point(422, 195);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 14;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
+            this.pictureBox6.Location = new System.Drawing.Point(422, 42);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
+            this.pictureBox12.Location = new System.Drawing.Point(70, 195);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 12;
+            this.pictureBox12.TabStop = false;
             // 
             // label18
             // 
@@ -638,6 +749,16 @@
             this.label25.TabIndex = 10;
             this.label25.Text = "Precio";
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
+            this.pictureBox7.Location = new System.Drawing.Point(71, 42);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            // 
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
@@ -684,6 +805,36 @@
             this.groupDisco1.TabStop = false;
             this.groupDisco1.Text = "Discos";
             this.groupDisco1.Visible = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
+            this.pictureBox9.Location = new System.Drawing.Point(421, 195);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 14;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
+            this.pictureBox10.Location = new System.Drawing.Point(421, 42);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 13;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
+            this.pictureBox13.Location = new System.Drawing.Point(96, 195);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 12;
+            this.pictureBox13.TabStop = false;
             // 
             // label26
             // 
@@ -777,6 +928,16 @@
             this.label33.TabIndex = 10;
             this.label33.Text = "Precio";
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
+            this.pictureBox11.Location = new System.Drawing.Point(96, 40);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(139, 107);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 9;
+            this.pictureBox11.TabStop = false;
+            // 
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
@@ -796,167 +957,6 @@
             this.checkBox12.TabIndex = 8;
             this.checkBox12.Text = "HDD- 500GB WESTERN";
             this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox9.Location = new System.Drawing.Point(421, 195);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 14;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox10.Location = new System.Drawing.Point(421, 42);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 13;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox13.Location = new System.Drawing.Point(96, 195);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 12;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox11.Location = new System.Drawing.Point(96, 40);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 9;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox14.Location = new System.Drawing.Point(422, 195);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 14;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox6.Location = new System.Drawing.Point(422, 42);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 13;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox12.Location = new System.Drawing.Point(70, 195);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 12;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox7.Location = new System.Drawing.Point(71, 42);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox3.Location = new System.Drawing.Point(96, 40);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            // 
-            // imgMicro4
-            // 
-            this.imgMicro4.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
-            this.imgMicro4.Location = new System.Drawing.Point(421, 184);
-            this.imgMicro4.Name = "imgMicro4";
-            this.imgMicro4.Size = new System.Drawing.Size(139, 107);
-            this.imgMicro4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgMicro4.TabIndex = 9;
-            this.imgMicro4.TabStop = false;
-            // 
-            // imgMicro3
-            // 
-            this.imgMicro3.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
-            this.imgMicro3.Location = new System.Drawing.Point(96, 184);
-            this.imgMicro3.Name = "imgMicro3";
-            this.imgMicro3.Size = new System.Drawing.Size(139, 107);
-            this.imgMicro3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgMicro3.TabIndex = 9;
-            this.imgMicro3.TabStop = false;
-            this.imgMicro3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // imgMicro1
-            // 
-            this.imgMicro1.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
-            this.imgMicro1.Location = new System.Drawing.Point(96, 40);
-            this.imgMicro1.Name = "imgMicro1";
-            this.imgMicro1.Size = new System.Drawing.Size(139, 107);
-            this.imgMicro1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgMicro1.TabIndex = 9;
-            this.imgMicro1.TabStop = false;
-            // 
-            // imgMicro2
-            // 
-            this.imgMicro2.Image = global::Proyecto_programacion_3.Properties.Resources.core_i7;
-            this.imgMicro2.Location = new System.Drawing.Point(421, 40);
-            this.imgMicro2.Name = "imgMicro2";
-            this.imgMicro2.Size = new System.Drawing.Size(139, 107);
-            this.imgMicro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgMicro2.TabIndex = 9;
-            this.imgMicro2.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox5.Location = new System.Drawing.Point(96, 195);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 12;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox2.Location = new System.Drawing.Point(421, 40);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox1.Location = new System.Drawing.Point(421, 195);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
             // 
             // frmInicio
             // 
@@ -983,28 +983,28 @@
             this.Load += new System.EventHandler(this.frmInicio_Load);
             this.groupMicros1.ResumeLayout(false);
             this.groupMicros1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMicro2)).EndInit();
             this.groupMother1.ResumeLayout(false);
             this.groupMother1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupMemoria1.ResumeLayout(false);
             this.groupMemoria1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.groupDisco1.ResumeLayout(false);
             this.groupDisco1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgMicro2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

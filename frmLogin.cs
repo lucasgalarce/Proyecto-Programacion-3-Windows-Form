@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Proyecto_programacion_3
 {
@@ -28,10 +29,11 @@ namespace Proyecto_programacion_3
         {
 
         }
-
+        //(txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin")
         private void btn_Login_Click(object sender, EventArgs e)
         {
-
+            Usuario UsuarioBuscado = new Usuario(txtUsuario.Text,txtContrasena.Text);
+            
             if ((txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin"))
             {
 
