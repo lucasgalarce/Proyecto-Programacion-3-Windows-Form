@@ -42,51 +42,39 @@ namespace Proyecto_programacion_3
 
             if (Program.getEmpresa().buscarUsuario(u))
             {
-
                 MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome", MessageBoxButtons.OK);
-
-
                 frmAdmin administrador = new frmAdmin();
+
                 administrador.Show();
                 this.Hide();
 
             }else if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
             {
-               
                 if (Program.getEmpresa().buscarUsuario(u))
                 {
-
                     MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     frmInicio inicio = new frmInicio();
                     inicio.Show();
 
                     this.Hide();
-
                 }
                 else
                 {
-
                     MessageBox.Show("El Usuario o la Contraseña es Incorrecta", "Error 604", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 }
 
             }
             else
             {
                 MessageBox.Show("Complete todos los campos", "Error 500", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-
-              
             }
         }
-
-
 
         private void link_Registrarse_Click(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmRegistro registro = new frmRegistro();
-            registro.Show();
 
+            registro.Show();
             this.Hide();
         }
     }

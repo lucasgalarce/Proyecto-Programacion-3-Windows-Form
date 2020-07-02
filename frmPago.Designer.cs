@@ -41,9 +41,10 @@
             this.button1.Location = new System.Drawing.Point(34, 106);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(212, 53);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Pagar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -60,7 +61,7 @@
             this.radioButton1.Location = new System.Drawing.Point(37, 67);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(64, 17);
-            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Efectivo";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -83,7 +84,7 @@
             this.radioButton3.Location = new System.Drawing.Point(242, 67);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(105, 17);
-            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabIndex = 3;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Tarjeta de debito";
             this.radioButton3.UseVisualStyleBackColor = false;
@@ -95,7 +96,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(295, 133);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(73, 13);
-            this.linkLabel1.TabIndex = 3;
+            this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Volver a inicio";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);

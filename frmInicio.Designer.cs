@@ -153,7 +153,7 @@
             this.micro.Location = new System.Drawing.Point(73, 109);
             this.micro.Name = "micro";
             this.micro.Size = new System.Drawing.Size(187, 55);
-            this.micro.TabIndex = 2;
+            this.micro.TabIndex = 1;
             this.micro.Text = "Microprocesadores";
             this.micro.UseVisualStyleBackColor = true;
             this.micro.Click += new System.EventHandler(this.Micro1_Click);
@@ -173,7 +173,7 @@
             this.ram.Location = new System.Drawing.Point(459, 109);
             this.ram.Name = "ram";
             this.ram.Size = new System.Drawing.Size(187, 55);
-            this.ram.TabIndex = 2;
+            this.ram.TabIndex = 3;
             this.ram.Text = "Memorias ram";
             this.ram.UseVisualStyleBackColor = true;
             this.ram.Click += new System.EventHandler(this.ram_Click);
@@ -183,7 +183,7 @@
             this.disk.Location = new System.Drawing.Point(652, 109);
             this.disk.Name = "disk";
             this.disk.Size = new System.Drawing.Size(187, 55);
-            this.disk.TabIndex = 2;
+            this.disk.TabIndex = 4;
             this.disk.Text = "Disco";
             this.disk.UseVisualStyleBackColor = true;
             this.disk.Click += new System.EventHandler(this.disk_Click);
@@ -203,7 +203,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(750, 80);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(86, 13);
-            this.linkLabel1.TabIndex = 4;
+            this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Proceder a pago";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
@@ -410,7 +410,7 @@
             this.comboBox1.Location = new System.Drawing.Point(73, 60);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(303, 21);
-            this.comboBox1.TabIndex = 17;
+            this.comboBox1.TabIndex = 0;
             // 
             // lblPreCargados
             // 
@@ -538,7 +538,7 @@
             this.checkBox1.Location = new System.Drawing.Point(579, 195);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(122, 17);
-            this.checkBox1.TabIndex = 8;
+            this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Mother Asrock 1150";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -548,7 +548,7 @@
             this.checkBox2.Location = new System.Drawing.Point(250, 197);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(116, 17);
-            this.checkBox2.TabIndex = 8;
+            this.checkBox2.TabIndex = 0;
             this.checkBox2.Text = "Mother MSI PRO 2";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -586,7 +586,7 @@
             this.checkBox3.Location = new System.Drawing.Point(250, 42);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(117, 17);
-            this.checkBox3.TabIndex = 8;
+            this.checkBox3.TabIndex = 0;
             this.checkBox3.Text = "Mother ASUS PRO";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
@@ -596,7 +596,7 @@
             this.checkBox4.Location = new System.Drawing.Point(579, 42);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(125, 17);
-            this.checkBox4.TabIndex = 8;
+            this.checkBox4.TabIndex = 0;
             this.checkBox4.Text = "Mother Gigabyte 320";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 

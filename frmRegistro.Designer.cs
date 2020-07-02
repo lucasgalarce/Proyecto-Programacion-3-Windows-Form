@@ -57,7 +57,7 @@
             this.label2.Location = new System.Drawing.Point(26, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 18);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Contraseña";
             // 
             // label3
@@ -67,7 +67,7 @@
             this.label3.Location = new System.Drawing.Point(26, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(183, 18);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 0;
             this.label3.Text = "Confirmar contraseña";
             // 
             // volverLogin
@@ -77,7 +77,7 @@
             this.volverLogin.Location = new System.Drawing.Point(303, 220);
             this.volverLogin.Name = "volverLogin";
             this.volverLogin.Size = new System.Drawing.Size(119, 18);
-            this.volverLogin.TabIndex = 3;
+            this.volverLogin.TabIndex = 6;
             this.volverLogin.TabStop = true;
             this.volverLogin.Text = "Volver al login";
             this.volverLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
@@ -88,7 +88,7 @@
             this.Usuario.Location = new System.Drawing.Point(217, 24);
             this.Usuario.Name = "Usuario";
             this.Usuario.Size = new System.Drawing.Size(200, 26);
-            this.Usuario.TabIndex = 4;
+            this.Usuario.TabIndex = 1;
             // 
             // Contra
             // 
@@ -96,7 +96,7 @@
             this.Contra.Location = new System.Drawing.Point(217, 62);
             this.Contra.Name = "Contra";
             this.Contra.Size = new System.Drawing.Size(200, 26);
-            this.Contra.TabIndex = 4;
+            this.Contra.TabIndex = 2;
             // 
             // confirmContra
             // 
@@ -104,7 +104,7 @@
             this.confirmContra.Location = new System.Drawing.Point(217, 102);
             this.confirmContra.Name = "confirmContra";
             this.confirmContra.Size = new System.Drawing.Size(200, 26);
-            this.confirmContra.TabIndex = 4;
+            this.confirmContra.TabIndex = 3;
             // 
             // label4
             // 
@@ -113,7 +113,7 @@
             this.label4.Location = new System.Drawing.Point(73, 156);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 18);
-            this.label4.TabIndex = 5;
+            this.label4.TabIndex = 0;
             this.label4.Text = "Mail";
             // 
             // Mail
@@ -122,14 +122,14 @@
             this.Mail.Location = new System.Drawing.Point(217, 153);
             this.Mail.Name = "Mail";
             this.Mail.Size = new System.Drawing.Size(200, 26);
-            this.Mail.TabIndex = 6;
+            this.Mail.TabIndex = 4;
             // 
             // registrarse
             // 
             this.registrarse.Location = new System.Drawing.Point(156, 210);
             this.registrarse.Name = "registrarse";
             this.registrarse.Size = new System.Drawing.Size(127, 40);
-            this.registrarse.TabIndex = 7;
+            this.registrarse.TabIndex = 5;
             this.registrarse.Text = "Registrarse";
             this.registrarse.UseVisualStyleBackColor = true;
             this.registrarse.Click += new System.EventHandler(this.registrarse_Click);

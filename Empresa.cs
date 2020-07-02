@@ -9,32 +9,22 @@ using System.Windows.Forms;
 
 namespace Proyecto_programacion_3
 {
-
-
     [Serializable]
     class Usuario
     {
-
         public string nombre;
         public string contrasena;
         
         public Usuario(string nombre, string contrasena)
         {
-
             this.nombre = nombre;
             this.contrasena = contrasena;
-            
-
         }
 
         public bool existeEnLista(Usuario u)
         {
-
             return ((this.nombre == u.nombre) && (this.contrasena == u.contrasena));
-
         }
-
-
     }
 
     [Serializable]
@@ -64,15 +54,12 @@ namespace Proyecto_programacion_3
         public int stock;
         public Mother(string nombre, double precio, string descripcion, int stock)
         {
-
             this.nombre = nombre;
             this.precio = precio;
             this.descripcion = descripcion;
             this.stock = stock;
-
         }
     }
-
 
     [Serializable]
     class Disco
@@ -83,15 +70,12 @@ namespace Proyecto_programacion_3
         public int stock;
         public Disco(string nombre, double precio, string descripcion, int stock)
         {
-
             this.nombre = nombre;
             this.precio = precio;
             this.descripcion = descripcion;
             this.stock = stock;
-
         }
     }
-
 
     [Serializable]
     class Memoria
@@ -102,22 +86,15 @@ namespace Proyecto_programacion_3
         public int stock;
         public Memoria(string nombre, double precio, string descripcion, int stock)
         {
-
             this.nombre = nombre;
             this.precio = precio;
             this.descripcion = descripcion;
             this.stock = stock;
-
         }
     }
 
-
-
-
-
     class Empresa
     {
-
         public List<Usuario> usuariosRepo;
         public List<Micro> microsRepo;
         public List<Mother> mothersRepo;
@@ -131,50 +108,25 @@ namespace Proyecto_programacion_3
             mothersRepo = new List<Mother>();
             discosRepo = new List<Disco>();
             memosRepo = new List<Memoria>();
-
         }
-
 
         public bool agregarUsuario(Usuario u)
         {
-
             usuariosRepo.Add(u);
             return true;
-
         }
 
         public bool buscarUsuario(Usuario u)
         {
-
             foreach (Usuario user in this.usuariosRepo)
             {
-
                 if (u.existeEnLista(user))
                 {
-
                     return true;
-
                 }
-
             }
 
             return false;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

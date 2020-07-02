@@ -46,7 +46,7 @@
             this.userLogin.Location = new System.Drawing.Point(201, 255);
             this.userLogin.Name = "userLogin";
             this.userLogin.Size = new System.Drawing.Size(141, 47);
-            this.userLogin.TabIndex = 0;
+            this.userLogin.TabIndex = 3;
             this.userLogin.Text = "Login";
             this.userLogin.UseVisualStyleBackColor = true;
             this.userLogin.Click += new System.EventHandler(this.btn_Login_Click);
@@ -58,7 +58,7 @@
             this.labelUser.Location = new System.Drawing.Point(89, 167);
             this.labelUser.Name = "labelUser";
             this.labelUser.Size = new System.Drawing.Size(70, 18);
-            this.labelUser.TabIndex = 2;
+            this.labelUser.TabIndex = 0;
             this.labelUser.Text = "Usuario";
             // 
             // txtUsuario
@@ -66,7 +66,7 @@
             this.txtUsuario.Location = new System.Drawing.Point(204, 167);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(141, 20);
-            this.txtUsuario.TabIndex = 3;
+            this.txtUsuario.TabIndex = 1;
             // 
             // txtContrasena
             // 
@@ -74,7 +74,7 @@
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.PasswordChar = '*';
             this.txtContrasena.Size = new System.Drawing.Size(140, 20);
-            this.txtContrasena.TabIndex = 4;
+            this.txtContrasena.TabIndex = 2;
             // 
             // labelPassword
             // 
@@ -83,7 +83,7 @@
             this.labelPassword.Location = new System.Drawing.Point(89, 213);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(102, 18);
-            this.labelPassword.TabIndex = 5;
+            this.labelPassword.TabIndex = 0;
             this.labelPassword.Text = "Contraseña";
             this.labelPassword.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -94,7 +94,7 @@
             this.label1.Location = new System.Drawing.Point(123, 331);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 18);
-            this.label1.TabIndex = 6;
+            this.label1.TabIndex = 0;
             this.label1.Text = "¿No tiene cuenta?";
             // 
             // label2
@@ -103,7 +103,7 @@
             this.label2.Location = new System.Drawing.Point(38, 32);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 48);
-            this.label2.TabIndex = 10;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Bienvenido/a";
             // 
             // linkRegistrarse
@@ -113,7 +113,7 @@
             this.linkRegistrarse.Location = new System.Drawing.Point(298, 331);
             this.linkRegistrarse.Name = "linkRegistrarse";
             this.linkRegistrarse.Size = new System.Drawing.Size(91, 20);
-            this.linkRegistrarse.TabIndex = 11;
+            this.linkRegistrarse.TabIndex = 4;
             this.linkRegistrarse.TabStop = true;
             this.linkRegistrarse.Text = "Registrarse";
             this.linkRegistrarse.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_Registrarse_Click);

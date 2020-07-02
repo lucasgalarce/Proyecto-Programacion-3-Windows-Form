@@ -28,8 +28,12 @@ namespace Proyecto_programacion_3
         {
             inicio = new frmInicio();
             inicio.Show();
-
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
