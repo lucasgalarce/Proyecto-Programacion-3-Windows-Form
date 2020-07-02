@@ -7,20 +7,21 @@ using System.Threading.Tasks;
 
 namespace Proyecto_programacion_3
 {
-    class MicrosRepo
-    {
-        static List<Micro> ListaMicros = new List<Micro>();
+    //[Serializable]
+    //class MicrosRepo
+    //{
+    //    static List<Micro> ListaMicros = new List<Micro>();
 
-        public static void agregarMicros(string nombre, double precio, string descripcion, int stock)
-        {
+    //    public static void agregarMicros(string nombre, double precio, string descripcion, int stock)
+    //    {
 
-            Micro nuevoMicro = new Micro(nombre, precio, descripcion, stock);
+    //        Micro nuevoMicro = new Micro(nombre, precio, descripcion, stock);
 
-            ListaMicros.Add(nuevoMicro);
+    //        ListaMicros.Add(nuevoMicro);
             
 
-        }
+    //    }
 
-    }
+    //}
     
 }

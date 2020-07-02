@@ -25,16 +25,22 @@ namespace Proyecto_programacion_3
 
         }
 
+        private void btnSalida_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-        //(txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin")
+      
         private void btn_Login_Click(object sender, EventArgs e)
         {
-            Usuario UsuarioBuscado = new Usuario(txtUsuario.Text,txtContrasena.Text);
-            
-            if ((txtUsuario.Text == "Admin") && (txtContrasena.Text == "passadmin"))
+
+            Usuario u = new Usuario(txtUsuario.Text, txtContrasena.Text);
+
+            if (Program.getEmpresa().buscarUsuario(u))
             {
 
                 MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome", MessageBoxButtons.OK);
@@ -44,13 +50,10 @@ namespace Proyecto_programacion_3
                 administrador.Show();
                 this.Hide();
 
-            }
-
-            if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
+            }else if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
             {
-                
-
-                if (UsuariosRepo.buscarUsuario(txtUsuario.Text,txtContrasena.Text))
+               
+                if (Program.getEmpresa().buscarUsuario(u))
                 {
 
                     MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -23,7 +23,6 @@ namespace Proyecto_programacion_3
         {
             login = new frmLogin();
             login.Show();
-
             this.Hide();
 
         }
@@ -31,17 +30,22 @@ namespace Proyecto_programacion_3
         private void registrarse_Click(object sender, EventArgs e)
         {
 
+            Usuario u = new Usuario(Usuario.Text, Contra.Text);
+
+
             if ((Usuario.Text != "") && (Contra.Text != "") && (confirmContra.Text != "") && (Mail.Text != ""))
             {
+
+
                 if (Contra.Text == confirmContra.Text)
                 {
 
-                    UsuariosRepo.agregarUsuario(Usuario.Text, Contra.Text);
+                    Program.getEmpresa().agregarUsuario(u);
+
                     MessageBox.Show("Se registro Satisfactoriamente", "Registro con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     login = new frmLogin();
                     login.Show();
-
                     this.Hide();
 
                 }
