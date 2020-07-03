@@ -66,13 +66,13 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMother4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMother3 = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMother1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMother2 = new System.Windows.Forms.CheckBox();
             this.groupMemoria1 = new System.Windows.Forms.GroupBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -83,13 +83,13 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMemoria4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMemoria3 = new System.Windows.Forms.CheckBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMemoria1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxMemoria2 = new System.Windows.Forms.CheckBox();
             this.groupDisco1 = new System.Windows.Forms.GroupBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -100,13 +100,13 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBoxDisco4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxDisco3 = new System.Windows.Forms.CheckBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBoxDisco1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxDisco2 = new System.Windows.Forms.CheckBox();
             this.groupMicros1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMicro3)).BeginInit();
@@ -225,7 +225,7 @@
             this.checkBoxMicro1.Location = new System.Drawing.Point(271, 40);
             this.checkBoxMicro1.Name = "checkBoxMicro1";
             this.checkBoxMicro1.Size = new System.Drawing.Size(67, 17);
-            this.checkBoxMicro1.TabIndex = 8;
+            this.checkBoxMicro1.TabIndex = 0;
             this.checkBoxMicro1.Text = "i3 7800k";
             this.checkBoxMicro1.UseVisualStyleBackColor = true;
             // 
@@ -235,7 +235,7 @@
             this.checkBoxMicro4.Location = new System.Drawing.Point(605, 195);
             this.checkBoxMicro4.Name = "checkBoxMicro4";
             this.checkBoxMicro4.Size = new System.Drawing.Size(67, 17);
-            this.checkBoxMicro4.TabIndex = 8;
+            this.checkBoxMicro4.TabIndex = 0;
             this.checkBoxMicro4.Text = "i9 9900k";
             this.checkBoxMicro4.UseVisualStyleBackColor = true;
             // 
@@ -245,7 +245,7 @@
             this.checkBoxMicro3.Location = new System.Drawing.Point(271, 195);
             this.checkBoxMicro3.Name = "checkBoxMicro3";
             this.checkBoxMicro3.Size = new System.Drawing.Size(67, 17);
-            this.checkBoxMicro3.TabIndex = 8;
+            this.checkBoxMicro3.TabIndex = 0;
             this.checkBoxMicro3.Text = "i7 8800k";
             this.checkBoxMicro3.UseVisualStyleBackColor = true;
             // 
@@ -255,7 +255,7 @@
             this.lblMicro1.Location = new System.Drawing.Point(272, 80);
             this.lblMicro1.Name = "lblMicro1";
             this.lblMicro1.Size = new System.Drawing.Size(37, 13);
-            this.lblMicro1.TabIndex = 10;
+            this.lblMicro1.TabIndex = 0;
             this.lblMicro1.Text = "Precio";
             // 
             // label6
@@ -264,7 +264,7 @@
             this.label6.Location = new System.Drawing.Point(268, 237);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 13);
-            this.label6.TabIndex = 10;
+            this.label6.TabIndex = 0;
             this.label6.Text = "Precio";
             // 
             // label7
@@ -273,7 +273,7 @@
             this.label7.Location = new System.Drawing.Point(602, 237);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(37, 13);
-            this.label7.TabIndex = 10;
+            this.label7.TabIndex = 0;
             this.label7.Text = "Precio";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
@@ -283,7 +283,7 @@
             this.stockMicro1.Location = new System.Drawing.Point(274, 121);
             this.stockMicro1.Name = "stockMicro1";
             this.stockMicro1.Size = new System.Drawing.Size(35, 13);
-            this.stockMicro1.TabIndex = 11;
+            this.stockMicro1.TabIndex = 0;
             this.stockMicro1.Text = "Stock";
             // 
             // label10
@@ -292,7 +292,7 @@
             this.label10.Location = new System.Drawing.Point(268, 275);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(35, 13);
-            this.label10.TabIndex = 11;
+            this.label10.TabIndex = 0;
             this.label10.Text = "Stock";
             // 
             // label11
@@ -301,7 +301,7 @@
             this.label11.Location = new System.Drawing.Point(604, 275);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(35, 13);
-            this.label11.TabIndex = 11;
+            this.label11.TabIndex = 0;
             this.label11.Text = "Stock";
             // 
             // groupMicros1
@@ -322,7 +322,7 @@
             this.groupMicros1.Controls.Add(this.checkBoxMicro1);
             this.groupMicros1.Controls.Add(this.imgMicro2);
             this.groupMicros1.Controls.Add(this.checkBoxMicro2);
-            this.groupMicros1.Location = new System.Drawing.Point(712, 527);
+            this.groupMicros1.Location = new System.Drawing.Point(862, 573);
             this.groupMicros1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMicros1.Name = "groupMicros1";
             this.groupMicros1.Size = new System.Drawing.Size(766, 342);
@@ -337,7 +337,7 @@
             this.label9.Location = new System.Drawing.Point(604, 127);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 11;
+            this.label9.TabIndex = 0;
             this.label9.Text = "Stock";
             // 
             // imgMicro4
@@ -367,7 +367,7 @@
             this.label5.Location = new System.Drawing.Point(604, 82);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 13);
-            this.label5.TabIndex = 10;
+            this.label5.TabIndex = 0;
             this.label5.Text = "Precio";
             // 
             // imgMicro1
@@ -396,7 +396,7 @@
             this.checkBoxMicro2.Location = new System.Drawing.Point(605, 42);
             this.checkBoxMicro2.Name = "checkBoxMicro2";
             this.checkBoxMicro2.Size = new System.Drawing.Size(67, 17);
-            this.checkBoxMicro2.TabIndex = 8;
+            this.checkBoxMicro2.TabIndex = 0;
             this.checkBoxMicro2.Text = "i5 7600k";
             this.checkBoxMicro2.UseVisualStyleBackColor = true;
             // 
@@ -432,14 +432,14 @@
             this.groupMother1.Controls.Add(this.label13);
             this.groupMother1.Controls.Add(this.label14);
             this.groupMother1.Controls.Add(this.label15);
-            this.groupMother1.Controls.Add(this.checkBox1);
-            this.groupMother1.Controls.Add(this.checkBox2);
+            this.groupMother1.Controls.Add(this.checkBoxMother4);
+            this.groupMother1.Controls.Add(this.checkBoxMother3);
             this.groupMother1.Controls.Add(this.label16);
             this.groupMother1.Controls.Add(this.label17);
             this.groupMother1.Controls.Add(this.pictureBox3);
-            this.groupMother1.Controls.Add(this.checkBox3);
-            this.groupMother1.Controls.Add(this.checkBox4);
-            this.groupMother1.Location = new System.Drawing.Point(73, 185);
+            this.groupMother1.Controls.Add(this.checkBoxMother1);
+            this.groupMother1.Controls.Add(this.checkBoxMother2);
+            this.groupMother1.Location = new System.Drawing.Point(73, 193);
             this.groupMother1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMother1.Name = "groupMother1";
             this.groupMother1.Size = new System.Drawing.Size(766, 342);
@@ -493,7 +493,7 @@
             this.label8.Location = new System.Drawing.Point(247, 277);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 11;
+            this.label8.TabIndex = 0;
             this.label8.Text = "Stock";
             // 
             // label12
@@ -502,7 +502,7 @@
             this.label12.Location = new System.Drawing.Point(253, 123);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(35, 13);
-            this.label12.TabIndex = 11;
+            this.label12.TabIndex = 0;
             this.label12.Text = "Stock";
             // 
             // label13
@@ -520,7 +520,7 @@
             this.label14.Location = new System.Drawing.Point(247, 239);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(37, 13);
-            this.label14.TabIndex = 10;
+            this.label14.TabIndex = 0;
             this.label14.Text = "Precio";
             // 
             // label15
@@ -529,28 +529,28 @@
             this.label15.Location = new System.Drawing.Point(578, 127);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(35, 13);
-            this.label15.TabIndex = 11;
+            this.label15.TabIndex = 0;
             this.label15.Text = "Stock";
             // 
-            // checkBox1
+            // checkBoxMother4
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(579, 195);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(122, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Mother Asrock 1150";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxMother4.AutoSize = true;
+            this.checkBoxMother4.Location = new System.Drawing.Point(579, 195);
+            this.checkBoxMother4.Name = "checkBoxMother4";
+            this.checkBoxMother4.Size = new System.Drawing.Size(122, 17);
+            this.checkBoxMother4.TabIndex = 0;
+            this.checkBoxMother4.Text = "Mother Asrock 1150";
+            this.checkBoxMother4.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBoxMother3
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(250, 197);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(116, 17);
-            this.checkBox2.TabIndex = 0;
-            this.checkBox2.Text = "Mother MSI PRO 2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxMother3.AutoSize = true;
+            this.checkBoxMother3.Location = new System.Drawing.Point(250, 197);
+            this.checkBoxMother3.Name = "checkBoxMother3";
+            this.checkBoxMother3.Size = new System.Drawing.Size(116, 17);
+            this.checkBoxMother3.TabIndex = 0;
+            this.checkBoxMother3.Text = "Mother MSI PRO 2";
+            this.checkBoxMother3.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
@@ -558,7 +558,7 @@
             this.label16.Location = new System.Drawing.Point(251, 82);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(37, 13);
-            this.label16.TabIndex = 10;
+            this.label16.TabIndex = 0;
             this.label16.Text = "Precio";
             // 
             // label17
@@ -567,7 +567,7 @@
             this.label17.Location = new System.Drawing.Point(578, 82);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(37, 13);
-            this.label17.TabIndex = 10;
+            this.label17.TabIndex = 0;
             this.label17.Text = "Precio";
             // 
             // pictureBox3
@@ -580,25 +580,26 @@
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
-            // checkBox3
+            // checkBoxMother1
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(250, 42);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(117, 17);
-            this.checkBox3.TabIndex = 0;
-            this.checkBox3.Text = "Mother ASUS PRO";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxMother1.AutoSize = true;
+            this.checkBoxMother1.Location = new System.Drawing.Point(250, 42);
+            this.checkBoxMother1.Name = "checkBoxMother1";
+            this.checkBoxMother1.Size = new System.Drawing.Size(117, 17);
+            this.checkBoxMother1.TabIndex = 0;
+            this.checkBoxMother1.Text = "Mother ASUS PRO";
+            this.checkBoxMother1.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBoxMother2
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(579, 42);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(125, 17);
-            this.checkBox4.TabIndex = 0;
-            this.checkBox4.Text = "Mother Gigabyte 320";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBoxMother2.AutoSize = true;
+            this.checkBoxMother2.Location = new System.Drawing.Point(579, 42);
+            this.checkBoxMother2.Name = "checkBoxMother2";
+            this.checkBoxMother2.Size = new System.Drawing.Size(125, 17);
+            this.checkBoxMother2.TabIndex = 0;
+            this.checkBoxMother2.Text = "Mother Gigabyte 320";
+            this.checkBoxMother2.UseVisualStyleBackColor = true;
+            this.checkBoxMother2.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // groupMemoria1
             // 
@@ -611,14 +612,14 @@
             this.groupMemoria1.Controls.Add(this.label21);
             this.groupMemoria1.Controls.Add(this.label22);
             this.groupMemoria1.Controls.Add(this.label23);
-            this.groupMemoria1.Controls.Add(this.checkBox5);
-            this.groupMemoria1.Controls.Add(this.checkBox6);
+            this.groupMemoria1.Controls.Add(this.checkBoxMemoria4);
+            this.groupMemoria1.Controls.Add(this.checkBoxMemoria3);
             this.groupMemoria1.Controls.Add(this.label24);
             this.groupMemoria1.Controls.Add(this.label25);
             this.groupMemoria1.Controls.Add(this.pictureBox7);
-            this.groupMemoria1.Controls.Add(this.checkBox7);
-            this.groupMemoria1.Controls.Add(this.checkBox8);
-            this.groupMemoria1.Location = new System.Drawing.Point(28, 564);
+            this.groupMemoria1.Controls.Add(this.checkBoxMemoria1);
+            this.groupMemoria1.Controls.Add(this.checkBoxMemoria2);
+            this.groupMemoria1.Location = new System.Drawing.Point(18, 584);
             this.groupMemoria1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMemoria1.Name = "groupMemoria1";
             this.groupMemoria1.Size = new System.Drawing.Size(766, 342);
@@ -663,7 +664,7 @@
             this.label18.Location = new System.Drawing.Point(586, 275);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(35, 13);
-            this.label18.TabIndex = 11;
+            this.label18.TabIndex = 0;
             this.label18.Text = "Stock";
             // 
             // label19
@@ -672,7 +673,7 @@
             this.label19.Location = new System.Drawing.Point(223, 275);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(35, 13);
-            this.label19.TabIndex = 11;
+            this.label19.TabIndex = 0;
             this.label19.Text = "Stock";
             // 
             // label20
@@ -681,7 +682,7 @@
             this.label20.Location = new System.Drawing.Point(223, 123);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(35, 13);
-            this.label20.TabIndex = 11;
+            this.label20.TabIndex = 0;
             this.label20.Text = "Stock";
             // 
             // label21
@@ -690,7 +691,7 @@
             this.label21.Location = new System.Drawing.Point(586, 237);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(37, 13);
-            this.label21.TabIndex = 10;
+            this.label21.TabIndex = 0;
             this.label21.Text = "Precio";
             // 
             // label22
@@ -699,7 +700,7 @@
             this.label22.Location = new System.Drawing.Point(223, 237);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(37, 13);
-            this.label22.TabIndex = 10;
+            this.label22.TabIndex = 0;
             this.label22.Text = "Precio";
             // 
             // label23
@@ -708,28 +709,28 @@
             this.label23.Location = new System.Drawing.Point(584, 127);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(35, 13);
-            this.label23.TabIndex = 11;
+            this.label23.TabIndex = 0;
             this.label23.Text = "Stock";
             // 
-            // checkBox5
+            // checkBoxMemoria4
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(587, 195);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(149, 17);
-            this.checkBox5.TabIndex = 8;
-            this.checkBox5.Text = "Memoria ddr4 8gb 2400hz";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria4.AutoSize = true;
+            this.checkBoxMemoria4.Location = new System.Drawing.Point(587, 195);
+            this.checkBoxMemoria4.Name = "checkBoxMemoria4";
+            this.checkBoxMemoria4.Size = new System.Drawing.Size(149, 17);
+            this.checkBoxMemoria4.TabIndex = 0;
+            this.checkBoxMemoria4.Text = "Memoria ddr4 8gb 2400hz";
+            this.checkBoxMemoria4.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // checkBoxMemoria3
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(226, 195);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(149, 17);
-            this.checkBox6.TabIndex = 8;
-            this.checkBox6.Text = "Memoria ddr4 4gb 2400hz";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria3.AutoSize = true;
+            this.checkBoxMemoria3.Location = new System.Drawing.Point(226, 195);
+            this.checkBoxMemoria3.Name = "checkBoxMemoria3";
+            this.checkBoxMemoria3.Size = new System.Drawing.Size(149, 17);
+            this.checkBoxMemoria3.TabIndex = 0;
+            this.checkBoxMemoria3.Text = "Memoria ddr4 4gb 2400hz";
+            this.checkBoxMemoria3.UseVisualStyleBackColor = true;
             // 
             // label24
             // 
@@ -737,7 +738,7 @@
             this.label24.Location = new System.Drawing.Point(223, 82);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(37, 13);
-            this.label24.TabIndex = 10;
+            this.label24.TabIndex = 0;
             this.label24.Text = "Precio";
             // 
             // label25
@@ -746,7 +747,7 @@
             this.label25.Location = new System.Drawing.Point(584, 82);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(37, 13);
-            this.label25.TabIndex = 10;
+            this.label25.TabIndex = 0;
             this.label25.Text = "Precio";
             // 
             // pictureBox7
@@ -759,25 +760,25 @@
             this.pictureBox7.TabIndex = 9;
             this.pictureBox7.TabStop = false;
             // 
-            // checkBox7
+            // checkBoxMemoria1
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(226, 42);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(149, 17);
-            this.checkBox7.TabIndex = 8;
-            this.checkBox7.Text = "Memoria ddr3 4gb 1333hz";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria1.AutoSize = true;
+            this.checkBoxMemoria1.Location = new System.Drawing.Point(226, 42);
+            this.checkBoxMemoria1.Name = "checkBoxMemoria1";
+            this.checkBoxMemoria1.Size = new System.Drawing.Size(149, 17);
+            this.checkBoxMemoria1.TabIndex = 0;
+            this.checkBoxMemoria1.Text = "Memoria ddr3 4gb 1333hz";
+            this.checkBoxMemoria1.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // checkBoxMemoria2
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(587, 42);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(149, 17);
-            this.checkBox8.TabIndex = 8;
-            this.checkBox8.Text = "Memoria ddr3 8gb 1333hz";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria2.AutoSize = true;
+            this.checkBoxMemoria2.Location = new System.Drawing.Point(587, 42);
+            this.checkBoxMemoria2.Name = "checkBoxMemoria2";
+            this.checkBoxMemoria2.Size = new System.Drawing.Size(149, 17);
+            this.checkBoxMemoria2.TabIndex = 0;
+            this.checkBoxMemoria2.Text = "Memoria ddr3 8gb 1333hz";
+            this.checkBoxMemoria2.UseVisualStyleBackColor = true;
             // 
             // groupDisco1
             // 
@@ -790,14 +791,14 @@
             this.groupDisco1.Controls.Add(this.label29);
             this.groupDisco1.Controls.Add(this.label30);
             this.groupDisco1.Controls.Add(this.label31);
-            this.groupDisco1.Controls.Add(this.checkBox9);
-            this.groupDisco1.Controls.Add(this.checkBox10);
+            this.groupDisco1.Controls.Add(this.checkBoxDisco4);
+            this.groupDisco1.Controls.Add(this.checkBoxDisco3);
             this.groupDisco1.Controls.Add(this.label32);
             this.groupDisco1.Controls.Add(this.label33);
             this.groupDisco1.Controls.Add(this.pictureBox11);
-            this.groupDisco1.Controls.Add(this.checkBox11);
-            this.groupDisco1.Controls.Add(this.checkBox12);
-            this.groupDisco1.Location = new System.Drawing.Point(907, 185);
+            this.groupDisco1.Controls.Add(this.checkBoxDisco1);
+            this.groupDisco1.Controls.Add(this.checkBoxDisco2);
+            this.groupDisco1.Location = new System.Drawing.Point(876, 206);
             this.groupDisco1.Margin = new System.Windows.Forms.Padding(0);
             this.groupDisco1.Name = "groupDisco1";
             this.groupDisco1.Size = new System.Drawing.Size(766, 342);
@@ -842,7 +843,7 @@
             this.label26.Location = new System.Drawing.Point(604, 275);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(35, 13);
-            this.label26.TabIndex = 11;
+            this.label26.TabIndex = 0;
             this.label26.Text = "Stock";
             // 
             // label27
@@ -851,7 +852,7 @@
             this.label27.Location = new System.Drawing.Point(250, 275);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(35, 13);
-            this.label27.TabIndex = 11;
+            this.label27.TabIndex = 0;
             this.label27.Text = "Stock";
             // 
             // label28
@@ -860,7 +861,7 @@
             this.label28.Location = new System.Drawing.Point(256, 123);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(35, 13);
-            this.label28.TabIndex = 11;
+            this.label28.TabIndex = 0;
             this.label28.Text = "Stock";
             // 
             // label29
@@ -869,7 +870,7 @@
             this.label29.Location = new System.Drawing.Point(602, 237);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(37, 13);
-            this.label29.TabIndex = 10;
+            this.label29.TabIndex = 0;
             this.label29.Text = "Precio";
             // 
             // label30
@@ -878,7 +879,7 @@
             this.label30.Location = new System.Drawing.Point(250, 237);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(37, 13);
-            this.label30.TabIndex = 10;
+            this.label30.TabIndex = 0;
             this.label30.Text = "Precio";
             // 
             // label31
@@ -887,28 +888,28 @@
             this.label31.Location = new System.Drawing.Point(604, 127);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(35, 13);
-            this.label31.TabIndex = 11;
+            this.label31.TabIndex = 0;
             this.label31.Text = "Stock";
             // 
-            // checkBox9
+            // checkBoxDisco4
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(605, 195);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(148, 17);
-            this.checkBox9.TabIndex = 8;
-            this.checkBox9.Text = "SSD - 250GB WESTERN";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBoxDisco4.AutoSize = true;
+            this.checkBoxDisco4.Location = new System.Drawing.Point(605, 195);
+            this.checkBoxDisco4.Name = "checkBoxDisco4";
+            this.checkBoxDisco4.Size = new System.Drawing.Size(148, 17);
+            this.checkBoxDisco4.TabIndex = 0;
+            this.checkBoxDisco4.Text = "SSD - 250GB WESTERN";
+            this.checkBoxDisco4.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // checkBoxDisco3
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(253, 195);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(134, 17);
-            this.checkBox10.TabIndex = 8;
-            this.checkBox10.Text = "HDD- 1TB WESTERN";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBoxDisco3.AutoSize = true;
+            this.checkBoxDisco3.Location = new System.Drawing.Point(253, 195);
+            this.checkBoxDisco3.Name = "checkBoxDisco3";
+            this.checkBoxDisco3.Size = new System.Drawing.Size(134, 17);
+            this.checkBoxDisco3.TabIndex = 0;
+            this.checkBoxDisco3.Text = "HDD- 1TB WESTERN";
+            this.checkBoxDisco3.UseVisualStyleBackColor = true;
             // 
             // label32
             // 
@@ -916,7 +917,7 @@
             this.label32.Location = new System.Drawing.Point(254, 82);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(37, 13);
-            this.label32.TabIndex = 10;
+            this.label32.TabIndex = 0;
             this.label32.Text = "Precio";
             // 
             // label33
@@ -925,7 +926,7 @@
             this.label33.Location = new System.Drawing.Point(604, 82);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(37, 13);
-            this.label33.TabIndex = 10;
+            this.label33.TabIndex = 0;
             this.label33.Text = "Precio";
             // 
             // pictureBox11
@@ -938,25 +939,25 @@
             this.pictureBox11.TabIndex = 9;
             this.pictureBox11.TabStop = false;
             // 
-            // checkBox11
+            // checkBoxDisco1
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(253, 42);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(147, 17);
-            this.checkBox11.TabIndex = 8;
-            this.checkBox11.Text = "HDD- 250GB WESTERN";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBoxDisco1.AutoSize = true;
+            this.checkBoxDisco1.Location = new System.Drawing.Point(253, 42);
+            this.checkBoxDisco1.Name = "checkBoxDisco1";
+            this.checkBoxDisco1.Size = new System.Drawing.Size(147, 17);
+            this.checkBoxDisco1.TabIndex = 0;
+            this.checkBoxDisco1.Text = "HDD- 250GB WESTERN";
+            this.checkBoxDisco1.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // checkBoxDisco2
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(605, 42);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(147, 17);
-            this.checkBox12.TabIndex = 8;
-            this.checkBox12.Text = "HDD- 500GB WESTERN";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBoxDisco2.AutoSize = true;
+            this.checkBoxDisco2.Location = new System.Drawing.Point(605, 42);
+            this.checkBoxDisco2.Name = "checkBoxDisco2";
+            this.checkBoxDisco2.Size = new System.Drawing.Size(147, 17);
+            this.checkBoxDisco2.TabIndex = 8;
+            this.checkBoxDisco2.Text = "HDD- 500GB WESTERN";
+            this.checkBoxDisco2.UseVisualStyleBackColor = true;
             // 
             // frmInicio
             // 
@@ -1047,13 +1048,13 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBoxMother4;
+        private System.Windows.Forms.CheckBox checkBoxMother3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBoxMother1;
+        private System.Windows.Forms.CheckBox checkBoxMother2;
         private System.Windows.Forms.GroupBox groupMemoria1;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
@@ -1061,13 +1062,13 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBoxMemoria4;
+        private System.Windows.Forms.CheckBox checkBoxMemoria3;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBoxMemoria1;
+        private System.Windows.Forms.CheckBox checkBoxMemoria2;
         private System.Windows.Forms.GroupBox groupDisco1;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
@@ -1075,13 +1076,13 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox checkBoxDisco4;
+        private System.Windows.Forms.CheckBox checkBoxDisco3;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBoxDisco1;
+        private System.Windows.Forms.CheckBox checkBoxDisco2;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox13;

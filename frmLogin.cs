@@ -38,19 +38,22 @@ namespace Proyecto_programacion_3
         private void btn_Login_Click(object sender, EventArgs e)
         {
 
-            Usuario u = new Usuario(txtUsuario.Text, txtContrasena.Text);
+            Usuario findUser = new Usuario(txtUsuario.Text, txtContrasena.Text);
+            Usuario admin = new Usuario("admin", "admin");
+            Program.getEmpresa().agregarUsuario(admin);
 
-            if (Program.getEmpresa().buscarUsuario(u))
+            if (Program.getEmpresa().buscarAdministrador(findUser))
             {
                 MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome", MessageBoxButtons.OK);
-                frmAdmin administrador = new frmAdmin();
+                frmAdmin frmAdministrador = new frmAdmin();
 
-                administrador.Show();
+                frmAdministrador.Show();
                 this.Hide();
 
-            }else if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
+            }
+            else if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
             {
-                if (Program.getEmpresa().buscarUsuario(u))
+                if (Program.getEmpresa().buscarUsuario(findUser))
                 {
                     MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     frmInicio inicio = new frmInicio();

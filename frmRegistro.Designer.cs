@@ -95,6 +95,7 @@
             this.Contra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Contra.Location = new System.Drawing.Point(217, 62);
             this.Contra.Name = "Contra";
+            this.Contra.PasswordChar = '*';
             this.Contra.Size = new System.Drawing.Size(200, 26);
             this.Contra.TabIndex = 2;
             // 
@@ -103,6 +104,7 @@
             this.confirmContra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmContra.Location = new System.Drawing.Point(217, 102);
             this.confirmContra.Name = "confirmContra";
+            this.confirmContra.PasswordChar = '*';
             this.confirmContra.Size = new System.Drawing.Size(200, 26);
             this.confirmContra.TabIndex = 3;
             // 

@@ -101,5 +101,10 @@ namespace Proyecto_programacion_3
             groupDisco1.Visible = true;
             groupMemoria1.Visible = false;
         }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

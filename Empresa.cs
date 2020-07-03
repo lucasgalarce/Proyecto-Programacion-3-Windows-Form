@@ -108,7 +108,7 @@ namespace Proyecto_programacion_3
             mothersRepo = new List<Mother>();
             discosRepo = new List<Disco>();
             memosRepo = new List<Memoria>();
-        }
+        }        
 
         public bool agregarUsuario(Usuario u)
         {
@@ -126,6 +126,17 @@ namespace Proyecto_programacion_3
                 }
             }
 
+            return false;
+        }
+        public bool buscarAdministrador(Usuario u)
+        {
+            foreach (Usuario user in this.usuariosRepo)
+            {
+                if (u.existeEnLista(user) && user.nombre == "admin" && user.contrasena == "admin")
+                {
+                    return true;
+                }
+            }
             return false;
         }
     }
