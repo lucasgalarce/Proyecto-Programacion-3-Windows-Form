@@ -42,8 +42,6 @@ namespace Proyecto_programacion_3
 
         }
             
-
-
 }
 
     [Serializable]
@@ -69,6 +67,10 @@ namespace Proyecto_programacion_3
         {
           
         }
+        public Mother existeEnLista(Mother m)
+        {
+            return m;
+        }
     }
 
     [Serializable]
@@ -78,6 +80,10 @@ namespace Proyecto_programacion_3
         public Disco(string nombre, double precio,  int stock) : base(nombre, precio, stock)
         {
             
+        }
+        public Disco existeEnLista(Disco d)
+        {
+            return d;
         }
     }
 
@@ -89,7 +95,11 @@ namespace Proyecto_programacion_3
         {
 
         }
-       
+        public Memoria existeEnLista(Memoria m)
+        {
+            return m;
+        }
+
     }
 
     [Serializable]
@@ -112,8 +122,53 @@ namespace Proyecto_programacion_3
             Usuario administrador = new Usuario("admin", "admin");
             usuariosRepo.Add(administrador);
 
-            Micro micro1 = new Micro("i3 7800k", 10000, 5);
+            Micro micro1 = new Micro("i3 7800k", 10000, 10);
             microsRepo.Add(micro1);
+
+            Micro micro2 = new Micro("i5 7600k", 15000, 5);
+            microsRepo.Add(micro2);
+
+            Micro micro3 = new Micro("i7 8800k", 25000, 5);
+            microsRepo.Add(micro3);
+
+            Micro micro4 = new Micro("i9 9900k", 40000, 3);
+            microsRepo.Add(micro4);
+
+            Mother mother1 = new Mother("ASUS PRO", 5000, 10);
+            mothersRepo.Add(mother1);
+
+            Mother mother2 = new Mother("Gigabyte 320", 10000, 5);
+            mothersRepo.Add(mother2);
+
+            Mother mother3 = new Mother("MSI PRO 2", 20000, 5);
+            mothersRepo.Add(mother3);
+
+            Mother mother4 = new Mother("Asrock 1150", 30000, 3);
+            mothersRepo.Add(mother4);
+
+            Memoria memoria1 = new Memoria("DDR3 4GB 1333ghz", 5000, 10);
+            memosRepo.Add(memoria1);
+
+            Memoria memoria2 = new Memoria("DDR3 8GB 1333ghz", 10000, 5);
+            memosRepo.Add(memoria2);
+
+            Memoria memoria3 = new Memoria("DDR4 4GB 2400ghz", 20000, 5);
+            memosRepo.Add(memoria3);
+
+            Memoria memoria4 = new Memoria("DDR4 8GB 2400ghz", 30000, 3);
+            memosRepo.Add(memoria4);
+
+            Disco disco1 = new Disco("HDD 250GB Western", 5000, 10);
+            discosRepo.Add(disco1);
+
+            Disco disco2 = new Disco("HDD 500GB Western", 10000, 5);
+            discosRepo.Add(disco2);
+
+            Disco disco3 = new Disco("HDD 1TB Western", 20000, 5);
+            discosRepo.Add(disco3);
+
+            Disco disco4 = new Disco("SSD 250GB Western", 30000, 3);
+            discosRepo.Add(disco4);
 
         }        
 
@@ -157,6 +212,42 @@ namespace Proyecto_programacion_3
                 }
             }
 
+            return null;
+        }
+
+        public Mother buscarMother(string n)
+        {
+            foreach (Mother mother in mothersRepo)
+            {
+                if (mother.nombre == n)
+                {
+                    return mother;
+                }
+            }
+            return null;
+        }
+
+        public Memoria buscarMemoria(string n)
+        {
+            foreach (Memoria memoria in memosRepo)
+            {
+                if (memoria.nombre == n)
+                {
+                    return memoria;
+                }
+            }
+            return null;
+        }
+
+        public Disco buscarDisco(string n)
+        {
+            foreach (Disco disco in discosRepo)
+            {
+                if (disco.nombre == n)
+                {
+                    return disco;
+                }
+            }
             return null;
         }
     }

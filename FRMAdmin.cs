@@ -21,6 +21,31 @@ namespace Proyecto_programacion_3
 
         private void Admin_Load(object sender, EventArgs e)
         {
+            var listaMothers = new List<Mother>();
+            listaMothers = Program.getEmpresa().mothersRepo;
+            var listaMicros = new List<Micro>();
+            listaMicros = Program.getEmpresa().microsRepo;
+            var listaMemorias = new List<Memoria>();
+            listaMemorias = Program.getEmpresa().memosRepo;
+            var listaDiscos = new List<Disco>();
+            listaDiscos = Program.getEmpresa().discosRepo;
+
+            foreach (Mother mother in listaMothers)
+            {
+                comboBoxMothers.Items.Add(mother.nombre);
+            }
+            foreach (Micro micro in listaMicros)
+            {
+                comboBoxMicros.Items.Add(micro.nombre);
+            }
+            foreach (Memoria memoria in listaMemorias)
+            {
+                comboBoxMemorias.Items.Add(memoria.nombre);
+            }
+            foreach (Disco disco in listaDiscos)
+            {
+                comboBoxDiscos.Items.Add(disco.nombre);
+            }
 
         }
 
@@ -70,7 +95,10 @@ namespace Proyecto_programacion_3
 
         private void comboBoxMothers_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            Mother temporal = Program.getEmpresa().buscarMother(comboBoxMothers.Text);
+
+            precio.Text = temporal.precio.ToString();
+            stock.Text = temporal.stock.ToString();
 
         }
 
@@ -100,6 +128,9 @@ namespace Proyecto_programacion_3
         {
             
             Micro temporal = Program.getEmpresa().buscarMicro(comboBoxMicros.Text);
+
+
+
             temporal.precio = Int32.Parse(precio.Text);
             temporal.stock = Int32.Parse(stock.Text);
 
@@ -120,6 +151,22 @@ namespace Proyecto_programacion_3
             login.Show();
             this.Hide();
 
+        }
+
+        private void comboBoxMemorias_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Memoria temporal = Program.getEmpresa().buscarMemoria(comboBoxMemorias.Text);
+
+            precio.Text = temporal.precio.ToString();
+            stock.Text = temporal.stock.ToString();
+        }
+
+        private void comboBoxDiscos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Disco temporal = Program.getEmpresa().buscarDisco(comboBoxDiscos.Text);
+
+            precio.Text = temporal.precio.ToString();
+            stock.Text = temporal.stock.ToString();
         }
     }
 }

@@ -100,11 +100,6 @@
             // comboBoxMothers
             // 
             this.comboBoxMothers.FormattingEnabled = true;
-            this.comboBoxMothers.Items.AddRange(new object[] {
-            "ASUS PRO",
-            "Gigabyte 320",
-            "MSI PRO 2",
-            "Asrock 1150"});
             this.comboBoxMothers.Location = new System.Drawing.Point(87, 61);
             this.comboBoxMothers.Name = "comboBoxMothers";
             this.comboBoxMothers.Size = new System.Drawing.Size(180, 21);
@@ -115,11 +110,6 @@
             // comboBoxMicros
             // 
             this.comboBoxMicros.FormattingEnabled = true;
-            this.comboBoxMicros.Items.AddRange(new object[] {
-            "i3 7800k",
-            "i5 7600k",
-            "i7 8800k",
-            "i9 9900k"});
             this.comboBoxMicros.Location = new System.Drawing.Point(301, 109);
             this.comboBoxMicros.Name = "comboBoxMicros";
             this.comboBoxMicros.Size = new System.Drawing.Size(180, 21);
@@ -130,30 +120,22 @@
             // comboBoxMemorias
             // 
             this.comboBoxMemorias.FormattingEnabled = true;
-            this.comboBoxMemorias.Items.AddRange(new object[] {
-            "DDR3 4GB 1333ghz",
-            "DDR3 8GB 1333ghz",
-            "DDR4 4GB 2400ghz",
-            "DDR4 8GB 2400ghz"});
             this.comboBoxMemorias.Location = new System.Drawing.Point(301, 82);
             this.comboBoxMemorias.Name = "comboBoxMemorias";
             this.comboBoxMemorias.Size = new System.Drawing.Size(180, 21);
             this.comboBoxMemorias.TabIndex = 2;
             this.comboBoxMemorias.Visible = false;
+            this.comboBoxMemorias.SelectedIndexChanged += new System.EventHandler(this.comboBoxMemorias_SelectedIndexChanged);
             // 
             // comboBoxDiscos
             // 
             this.comboBoxDiscos.FormattingEnabled = true;
-            this.comboBoxDiscos.Items.AddRange(new object[] {
-            "HDD 250GB Western",
-            "HDD 500GB Western",
-            "HDD 1TB Western",
-            "SSD 250GB Western"});
             this.comboBoxDiscos.Location = new System.Drawing.Point(301, 136);
             this.comboBoxDiscos.Name = "comboBoxDiscos";
             this.comboBoxDiscos.Size = new System.Drawing.Size(180, 21);
             this.comboBoxDiscos.TabIndex = 2;
             this.comboBoxDiscos.Visible = false;
+            this.comboBoxDiscos.SelectedIndexChanged += new System.EventHandler(this.comboBoxDiscos_SelectedIndexChanged);
             // 
             // logout
             // 
