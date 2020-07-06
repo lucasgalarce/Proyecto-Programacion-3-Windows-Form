@@ -126,17 +126,33 @@ namespace Proyecto_programacion_3
 
         private void modificarStock_Click(object sender, EventArgs e)
         {
-            
-            Micro temporal = Program.getEmpresa().buscarMicro(comboBoxMicros.Text);
+            Mother temporal = Program.getEmpresa().buscarMother(comboBoxMothers.Text);
+            Micro temporal2 = Program.getEmpresa().buscarMicro(comboBoxMicros.Text);
+            Memoria temporal3 = Program.getEmpresa().buscarMemoria(comboBoxMemorias.Text);
+            Disco temporal4 = Program.getEmpresa().buscarDisco(comboBoxDiscos.Text);
 
-
-
-            temporal.precio = Int32.Parse(precio.Text);
-            temporal.stock = Int32.Parse(stock.Text);
+            if (temporal != null)
+            {
+                temporal.precio = Int32.Parse(precio.Text);
+                temporal.stock = Int32.Parse(stock.Text);
+            } 
+             if (temporal2 != null)
+            {
+                temporal2.precio = Int32.Parse(precio.Text);
+                temporal2.stock = Int32.Parse(stock.Text);
+            }
+             if (temporal3 != null)
+            {
+                temporal3.precio = Int32.Parse(precio.Text);
+                temporal3.stock = Int32.Parse(stock.Text);
+            }
+             if (temporal4 != null)
+            {
+                temporal4.precio = Int32.Parse(precio.Text);
+                temporal4.stock = Int32.Parse(stock.Text);
+            }
 
             MessageBox.Show("Se modifico el stock CORRECTAMENTE!", "Moficar Stock", MessageBoxButtons.OK);
-
-
         }
 
         private void frmAdmin_FormClosed(object sender, FormClosedEventArgs e)
