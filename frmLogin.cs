@@ -25,10 +25,6 @@ namespace Proyecto_programacion_3
 
         }
 
-        private void btnSalida_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -39,8 +35,7 @@ namespace Proyecto_programacion_3
         {
 
             Usuario findUser = new Usuario(txtUsuario.Text, txtContrasena.Text);
-            Usuario admin = new Usuario("admin", "admin");
-            Program.getEmpresa().agregarUsuario(admin);
+           
 
             if (Program.getEmpresa().buscarAdministrador(findUser))
             {
@@ -80,5 +75,20 @@ namespace Proyecto_programacion_3
             registro.Show();
             this.Hide();
         }
+
+
+        // revisar cerrar
+        //private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        //{
+        //    if (MessageBox.Show("Desea salir de la aplicacion?", "CoronaManagement 2020",
+        //        MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
+        //    {
+        //        e.Cancel = true;
+        //    }
+        //    else
+        //    {
+        //        Application.ExitThread();
+        //    }
+        //}
     }
 }

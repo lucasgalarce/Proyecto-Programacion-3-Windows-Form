@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.modificarStock = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -38,16 +38,18 @@
             this.comboBoxMicros = new System.Windows.Forms.ComboBox();
             this.comboBoxMemorias = new System.Windows.Forms.ComboBox();
             this.comboBoxDiscos = new System.Windows.Forms.ComboBox();
+            this.logout = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // button1
+            // modificarStock
             // 
-            this.button1.Location = new System.Drawing.Point(79, 322);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Modificar STOCK";
-            this.button1.UseVisualStyleBackColor = true;
+            this.modificarStock.Location = new System.Drawing.Point(79, 196);
+            this.modificarStock.Name = "modificarStock";
+            this.modificarStock.Size = new System.Drawing.Size(188, 52);
+            this.modificarStock.TabIndex = 0;
+            this.modificarStock.Text = "Modificar STOCK";
+            this.modificarStock.UseVisualStyleBackColor = true;
+            this.modificarStock.Click += new System.EventHandler(this.modificarStock_Click);
             // 
             // comboBox1
             // 
@@ -55,17 +57,18 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Mother",
             "Micro",
-            "Memorias ",
+            "Memorias",
             "Disco"});
-            this.comboBox1.Location = new System.Drawing.Point(191, 25);
+            this.comboBox1.Location = new System.Drawing.Point(87, 23);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(180, 21);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(134, 187);
+            this.label1.Location = new System.Drawing.Point(43, 123);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 13);
             this.label1.TabIndex = 3;
@@ -74,7 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(134, 223);
+            this.label2.Location = new System.Drawing.Point(43, 159);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 3;
@@ -82,14 +85,14 @@
             // 
             // precio
             // 
-            this.precio.Location = new System.Drawing.Point(232, 180);
+            this.precio.Location = new System.Drawing.Point(113, 116);
             this.precio.Name = "precio";
             this.precio.Size = new System.Drawing.Size(154, 20);
             this.precio.TabIndex = 4;
             // 
             // stock
             // 
-            this.stock.Location = new System.Drawing.Point(232, 220);
+            this.stock.Location = new System.Drawing.Point(113, 156);
             this.stock.Name = "stock";
             this.stock.Size = new System.Drawing.Size(154, 20);
             this.stock.TabIndex = 4;
@@ -102,10 +105,12 @@
             "Gigabyte 320",
             "MSI PRO 2",
             "Asrock 1150"});
-            this.comboBoxMothers.Location = new System.Drawing.Point(79, 74);
+            this.comboBoxMothers.Location = new System.Drawing.Point(87, 61);
             this.comboBoxMothers.Name = "comboBoxMothers";
             this.comboBoxMothers.Size = new System.Drawing.Size(180, 21);
             this.comboBoxMothers.TabIndex = 2;
+            this.comboBoxMothers.Visible = false;
+            this.comboBoxMothers.SelectedIndexChanged += new System.EventHandler(this.comboBoxMothers_SelectedIndexChanged);
             // 
             // comboBoxMicros
             // 
@@ -115,10 +120,12 @@
             "i5 7600k",
             "i7 8800k",
             "i9 9900k"});
-            this.comboBoxMicros.Location = new System.Drawing.Point(299, 74);
+            this.comboBoxMicros.Location = new System.Drawing.Point(301, 109);
             this.comboBoxMicros.Name = "comboBoxMicros";
             this.comboBoxMicros.Size = new System.Drawing.Size(180, 21);
             this.comboBoxMicros.TabIndex = 2;
+            this.comboBoxMicros.Visible = false;
+            this.comboBoxMicros.SelectedIndexChanged += new System.EventHandler(this.comboBoxMicros_SelectedIndexChanged);
             // 
             // comboBoxMemorias
             // 
@@ -128,10 +135,11 @@
             "DDR3 8GB 1333ghz",
             "DDR4 4GB 2400ghz",
             "DDR4 8GB 2400ghz"});
-            this.comboBoxMemorias.Location = new System.Drawing.Point(79, 110);
+            this.comboBoxMemorias.Location = new System.Drawing.Point(301, 82);
             this.comboBoxMemorias.Name = "comboBoxMemorias";
             this.comboBoxMemorias.Size = new System.Drawing.Size(180, 21);
             this.comboBoxMemorias.TabIndex = 2;
+            this.comboBoxMemorias.Visible = false;
             // 
             // comboBoxDiscos
             // 
@@ -141,16 +149,29 @@
             "HDD 500GB Western",
             "HDD 1TB Western",
             "SSD 250GB Western"});
-            this.comboBoxDiscos.Location = new System.Drawing.Point(299, 110);
+            this.comboBoxDiscos.Location = new System.Drawing.Point(301, 136);
             this.comboBoxDiscos.Name = "comboBoxDiscos";
             this.comboBoxDiscos.Size = new System.Drawing.Size(180, 21);
             this.comboBoxDiscos.TabIndex = 2;
+            this.comboBoxDiscos.Visible = false;
+            // 
+            // logout
+            // 
+            this.logout.AutoSize = true;
+            this.logout.Location = new System.Drawing.Point(84, 268);
+            this.logout.Name = "logout";
+            this.logout.Size = new System.Drawing.Size(70, 13);
+            this.logout.TabIndex = 5;
+            this.logout.TabStop = true;
+            this.logout.Text = "Cerrar Sesion";
+            this.logout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.logout_LinkClicked);
             // 
             // frmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 406);
+            this.ClientSize = new System.Drawing.Size(333, 305);
+            this.Controls.Add(this.logout);
             this.Controls.Add(this.stock);
             this.Controls.Add(this.precio);
             this.Controls.Add(this.label2);
@@ -160,9 +181,10 @@
             this.Controls.Add(this.comboBoxMicros);
             this.Controls.Add(this.comboBoxMothers);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.modificarStock);
             this.Name = "frmAdmin";
             this.Text = "Modo Administrador";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAdmin_FormClosed);
             this.Load += new System.EventHandler(this.Admin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -170,7 +192,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button modificarStock;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -180,5 +202,6 @@
         private System.Windows.Forms.ComboBox comboBoxMicros;
         private System.Windows.Forms.ComboBox comboBoxMemorias;
         private System.Windows.Forms.ComboBox comboBoxDiscos;
+        private System.Windows.Forms.LinkLabel logout;
     }
 }

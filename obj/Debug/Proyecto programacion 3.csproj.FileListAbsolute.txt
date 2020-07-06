@@ -63,3 +63,21 @@ H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\bin\De
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\bin\Debug\Newtonsoft.Json.xml
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmAdmin.resources
 H:\Users\Ratzot\Desktop\proyecto git\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.CopyComplete
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.exe.config
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.exe
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\bin\Debug\Proyecto programacion 3.pdb
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csprojAssemblyReference.cache
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmAdmin.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmContacto.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmInicio.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmLogin.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmPago.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.frmRegistro.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto_programacion_3.Properties.Resources.resources
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.GenerateResource.cache
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.CoreCompileInputs.cache
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.csproj.CopyComplete
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.exe
+C:\Users\HackUdowN\Desktop\Proyecto Actualizado PROG3\Proyecto-Programacion-3-Windows-Form\Proyecto-Programacion-3-Windows-Form\obj\Debug\Proyecto programacion 3.pdb

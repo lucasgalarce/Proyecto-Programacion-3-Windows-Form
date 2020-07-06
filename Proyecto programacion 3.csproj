@@ -56,9 +56,6 @@
     <Compile Include="frmAdmin.Designer.cs">
       <DependentUpon>frmAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Micro.cs" />
-    <Compile Include="MicrosRepo.cs" />
-    <Compile Include="UsuariosRepo.cs" />
     <Compile Include="frmContacto.cs">
       <SubType>Form</SubType>
     </Compile>

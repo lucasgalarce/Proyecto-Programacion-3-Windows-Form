@@ -28,71 +28,71 @@ namespace Proyecto_programacion_3
     }
 
     [Serializable]
-    class Micro
+    class componente
     {
         public string nombre;
-        public string descripcion;
         public double precio;
         public int stock;
-        public Micro(string nombre, double precio, string descripcion, int stock)
+        public componente(string nombre, double precio, int stock)
         {
 
             this.nombre = nombre;
-            this.precio = precio;
-            this.descripcion = descripcion;
+            this.precio = precio;            
             this.stock = stock;
 
+        }
+            
+
+
+}
+
+    [Serializable]
+    class Micro : componente
+    {
+        
+        public Micro(string nombre, double precio, int stock) : base(nombre, precio, stock)
+        {
+
+        }
+        public Micro existeEnLista(Micro m)
+        {
+            return m;
+        }
+
+    }
+
+    [Serializable]
+    class Mother : componente
+    {
+        
+        public Mother(string nombre, double precio, int stock) : base(nombre, precio, stock)
+        {
+          
         }
     }
 
     [Serializable]
-    class Mother
+    class Disco : componente
     {
-        public string nombre;
-        public string descripcion;
-        public double precio;
-        public int stock;
-        public Mother(string nombre, double precio, string descripcion, int stock)
+      
+        public Disco(string nombre, double precio,  int stock) : base(nombre, precio, stock)
         {
-            this.nombre = nombre;
-            this.precio = precio;
-            this.descripcion = descripcion;
-            this.stock = stock;
+            
         }
     }
 
     [Serializable]
-    class Disco
+    class Memoria : componente
     {
-        public string nombre;
-        public string descripcion;
-        public double precio;
-        public int stock;
-        public Disco(string nombre, double precio, string descripcion, int stock)
+        
+        public Memoria(string nombre, double precio, int stock) : base(nombre, precio,  stock)
         {
-            this.nombre = nombre;
-            this.precio = precio;
-            this.descripcion = descripcion;
-            this.stock = stock;
+
         }
+       
     }
 
     [Serializable]
-    class Memoria
-    {
-        public string nombre;
-        public string descripcion;
-        public double precio;
-        public int stock;
-        public Memoria(string nombre, double precio, string descripcion, int stock)
-        {
-            this.nombre = nombre;
-            this.precio = precio;
-            this.descripcion = descripcion;
-            this.stock = stock;
-        }
-    }
-
     class Empresa
     {
         public List<Usuario> usuariosRepo;
@@ -108,6 +108,13 @@ namespace Proyecto_programacion_3
             mothersRepo = new List<Mother>();
             discosRepo = new List<Disco>();
             memosRepo = new List<Memoria>();
+
+            Usuario administrador = new Usuario("admin", "admin");
+            usuariosRepo.Add(administrador);
+
+            Micro micro1 = new Micro("i3 7800k", 10000, 5);
+            microsRepo.Add(micro1);
+
         }        
 
         public bool agregarUsuario(Usuario u)
@@ -138,6 +145,19 @@ namespace Proyecto_programacion_3
                 }
             }
             return false;
+        }
+
+        public Micro buscarMicro(string n)
+        {
+            foreach (Micro micro in microsRepo)
+            {
+                if (micro.nombre == n)
+                {
+                    return micro;
+                }
+            }
+
+            return null;
         }
     }
 }
