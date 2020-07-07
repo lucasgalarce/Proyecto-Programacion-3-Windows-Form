@@ -53,5 +53,18 @@ namespace Proyecto_programacion_3
                 MessageBox.Show("Complete todos los campos", "Error 500", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void frmRegistro_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Desea salir de la aplicacion?", "West Byte",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                Application.ExitThread();
+            }
+        }
     }
 }

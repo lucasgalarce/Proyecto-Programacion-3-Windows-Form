@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.micro = new System.Windows.Forms.Button();
             this.mother = new System.Windows.Forms.Button();
             this.ram = new System.Windows.Forms.Button();
@@ -138,6 +137,8 @@
             this.checkBoxDisco1 = new System.Windows.Forms.CheckBox();
             this.checkBoxDisco2 = new System.Windows.Forms.CheckBox();
             this.precioTotal = new System.Windows.Forms.TextBox();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupMicros1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMicro3)).BeginInit();
@@ -163,21 +164,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 34);
+            this.label1.Location = new System.Drawing.Point(70, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bienvenido";
+            this.label1.Text = "Bienvenido! ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(220, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "user";
             // 
             // micro
             // 
@@ -355,7 +347,7 @@
             this.groupMicros1.Controls.Add(this.checkBoxMicro1);
             this.groupMicros1.Controls.Add(this.imgMicro2);
             this.groupMicros1.Controls.Add(this.checkBoxMicro2);
-            this.groupMicros1.Location = new System.Drawing.Point(431, 564);
+            this.groupMicros1.Location = new System.Drawing.Point(73, 180);
             this.groupMicros1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMicros1.Name = "groupMicros1";
             this.groupMicros1.Size = new System.Drawing.Size(766, 342);
@@ -533,7 +525,7 @@
             this.groupMother1.Controls.Add(this.pictureBox3);
             this.groupMother1.Controls.Add(this.checkBoxMother1);
             this.groupMother1.Controls.Add(this.checkBoxMother2);
-            this.groupMother1.Location = new System.Drawing.Point(73, 180);
+            this.groupMother1.Location = new System.Drawing.Point(370, 564);
             this.groupMother1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMother1.Name = "groupMother1";
             this.groupMother1.Size = new System.Drawing.Size(766, 342);
@@ -544,7 +536,7 @@
             // 
             // stockMother4
             // 
-            this.stockMother4.Location = new System.Drawing.Point(619, 270);
+            this.stockMother4.Location = new System.Drawing.Point(571, 274);
             this.stockMother4.Name = "stockMother4";
             this.stockMother4.ReadOnly = true;
             this.stockMother4.Size = new System.Drawing.Size(100, 20);
@@ -552,7 +544,7 @@
             // 
             // precioMother4
             // 
-            this.precioMother4.Location = new System.Drawing.Point(619, 234);
+            this.precioMother4.Location = new System.Drawing.Point(571, 238);
             this.precioMother4.Name = "precioMother4";
             this.precioMother4.ReadOnly = true;
             this.precioMother4.Size = new System.Drawing.Size(100, 20);
@@ -560,7 +552,7 @@
             // 
             // stockMother3
             // 
-            this.stockMother3.Location = new System.Drawing.Point(294, 272);
+            this.stockMother3.Location = new System.Drawing.Point(246, 276);
             this.stockMother3.Name = "stockMother3";
             this.stockMother3.ReadOnly = true;
             this.stockMother3.Size = new System.Drawing.Size(100, 20);
@@ -568,7 +560,7 @@
             // 
             // precioMother3
             // 
-            this.precioMother3.Location = new System.Drawing.Point(294, 237);
+            this.precioMother3.Location = new System.Drawing.Point(246, 241);
             this.precioMother3.Name = "precioMother3";
             this.precioMother3.ReadOnly = true;
             this.precioMother3.Size = new System.Drawing.Size(100, 20);
@@ -576,7 +568,7 @@
             // 
             // stockMother2
             // 
-            this.stockMother2.Location = new System.Drawing.Point(621, 124);
+            this.stockMother2.Location = new System.Drawing.Point(573, 128);
             this.stockMother2.Name = "stockMother2";
             this.stockMother2.ReadOnly = true;
             this.stockMother2.Size = new System.Drawing.Size(100, 20);
@@ -584,7 +576,7 @@
             // 
             // stockMother1
             // 
-            this.stockMother1.Location = new System.Drawing.Point(294, 120);
+            this.stockMother1.Location = new System.Drawing.Point(246, 124);
             this.stockMother1.Name = "stockMother1";
             this.stockMother1.ReadOnly = true;
             this.stockMother1.Size = new System.Drawing.Size(100, 20);
@@ -592,7 +584,7 @@
             // 
             // precioMother2
             // 
-            this.precioMother2.Location = new System.Drawing.Point(621, 79);
+            this.precioMother2.Location = new System.Drawing.Point(573, 83);
             this.precioMother2.Name = "precioMother2";
             this.precioMother2.ReadOnly = true;
             this.precioMother2.Size = new System.Drawing.Size(100, 20);
@@ -600,7 +592,7 @@
             // 
             // precioMother1
             // 
-            this.precioMother1.Location = new System.Drawing.Point(294, 79);
+            this.precioMother1.Location = new System.Drawing.Point(246, 83);
             this.precioMother1.Name = "precioMother1";
             this.precioMother1.ReadOnly = true;
             this.precioMother1.Size = new System.Drawing.Size(100, 20);
@@ -610,7 +602,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox1.Location = new System.Drawing.Point(421, 195);
+            this.pictureBox1.Location = new System.Drawing.Point(373, 199);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(139, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -620,7 +612,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox2.Location = new System.Drawing.Point(421, 40);
+            this.pictureBox2.Location = new System.Drawing.Point(373, 44);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(139, 107);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -630,7 +622,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox5.Location = new System.Drawing.Point(96, 195);
+            this.pictureBox5.Location = new System.Drawing.Point(48, 199);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(139, 107);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -640,7 +632,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(578, 275);
+            this.label4.Location = new System.Drawing.Point(530, 279);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 11;
@@ -649,7 +641,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(247, 277);
+            this.label8.Location = new System.Drawing.Point(199, 281);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 0;
@@ -658,7 +650,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(253, 123);
+            this.label12.Location = new System.Drawing.Point(205, 127);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(35, 13);
             this.label12.TabIndex = 0;
@@ -667,7 +659,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(576, 237);
+            this.label13.Location = new System.Drawing.Point(528, 241);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 13);
             this.label13.TabIndex = 10;
@@ -676,7 +668,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(247, 239);
+            this.label14.Location = new System.Drawing.Point(199, 243);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(37, 13);
             this.label14.TabIndex = 0;
@@ -685,7 +677,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(578, 127);
+            this.label15.Location = new System.Drawing.Point(530, 131);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(35, 13);
             this.label15.TabIndex = 0;
@@ -694,7 +686,7 @@
             // checkBoxMother4
             // 
             this.checkBoxMother4.AutoSize = true;
-            this.checkBoxMother4.Location = new System.Drawing.Point(579, 195);
+            this.checkBoxMother4.Location = new System.Drawing.Point(531, 199);
             this.checkBoxMother4.Name = "checkBoxMother4";
             this.checkBoxMother4.Size = new System.Drawing.Size(122, 17);
             this.checkBoxMother4.TabIndex = 0;
@@ -705,7 +697,7 @@
             // checkBoxMother3
             // 
             this.checkBoxMother3.AutoSize = true;
-            this.checkBoxMother3.Location = new System.Drawing.Point(250, 197);
+            this.checkBoxMother3.Location = new System.Drawing.Point(202, 201);
             this.checkBoxMother3.Name = "checkBoxMother3";
             this.checkBoxMother3.Size = new System.Drawing.Size(116, 17);
             this.checkBoxMother3.TabIndex = 0;
@@ -716,7 +708,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(251, 82);
+            this.label16.Location = new System.Drawing.Point(203, 86);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(37, 13);
             this.label16.TabIndex = 0;
@@ -725,7 +717,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(578, 82);
+            this.label17.Location = new System.Drawing.Point(530, 86);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(37, 13);
             this.label17.TabIndex = 0;
@@ -734,7 +726,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Proyecto_programacion_3.Properties.Resources.DISCO1;
-            this.pictureBox3.Location = new System.Drawing.Point(96, 40);
+            this.pictureBox3.Location = new System.Drawing.Point(48, 44);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(139, 107);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -744,7 +736,7 @@
             // checkBoxMother1
             // 
             this.checkBoxMother1.AutoSize = true;
-            this.checkBoxMother1.Location = new System.Drawing.Point(250, 42);
+            this.checkBoxMother1.Location = new System.Drawing.Point(202, 46);
             this.checkBoxMother1.Name = "checkBoxMother1";
             this.checkBoxMother1.Size = new System.Drawing.Size(117, 17);
             this.checkBoxMother1.TabIndex = 0;
@@ -755,7 +747,7 @@
             // checkBoxMother2
             // 
             this.checkBoxMother2.AutoSize = true;
-            this.checkBoxMother2.Location = new System.Drawing.Point(579, 42);
+            this.checkBoxMother2.Location = new System.Drawing.Point(531, 46);
             this.checkBoxMother2.Name = "checkBoxMother2";
             this.checkBoxMother2.Size = new System.Drawing.Size(125, 17);
             this.checkBoxMother2.TabIndex = 0;
@@ -789,7 +781,7 @@
             this.groupMemoria1.Controls.Add(this.pictureBox7);
             this.groupMemoria1.Controls.Add(this.checkBoxMemoria1);
             this.groupMemoria1.Controls.Add(this.checkBoxMemoria2);
-            this.groupMemoria1.Location = new System.Drawing.Point(11, 580);
+            this.groupMemoria1.Location = new System.Drawing.Point(40, 196);
             this.groupMemoria1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMemoria1.Name = "groupMemoria1";
             this.groupMemoria1.Size = new System.Drawing.Size(766, 342);
@@ -800,7 +792,7 @@
             // 
             // stockMemo4
             // 
-            this.stockMemo4.Location = new System.Drawing.Point(636, 271);
+            this.stockMemo4.Location = new System.Drawing.Point(602, 271);
             this.stockMemo4.Name = "stockMemo4";
             this.stockMemo4.ReadOnly = true;
             this.stockMemo4.Size = new System.Drawing.Size(100, 20);
@@ -808,7 +800,7 @@
             // 
             // precioMemo4
             // 
-            this.precioMemo4.Location = new System.Drawing.Point(636, 230);
+            this.precioMemo4.Location = new System.Drawing.Point(602, 230);
             this.precioMemo4.Name = "precioMemo4";
             this.precioMemo4.ReadOnly = true;
             this.precioMemo4.Size = new System.Drawing.Size(100, 20);
@@ -816,7 +808,7 @@
             // 
             // stockMemo3
             // 
-            this.stockMemo3.Location = new System.Drawing.Point(266, 275);
+            this.stockMemo3.Location = new System.Drawing.Point(232, 275);
             this.stockMemo3.Name = "stockMemo3";
             this.stockMemo3.ReadOnly = true;
             this.stockMemo3.Size = new System.Drawing.Size(100, 20);
@@ -824,7 +816,7 @@
             // 
             // precioMemo3
             // 
-            this.precioMemo3.Location = new System.Drawing.Point(266, 234);
+            this.precioMemo3.Location = new System.Drawing.Point(232, 234);
             this.precioMemo3.Name = "precioMemo3";
             this.precioMemo3.ReadOnly = true;
             this.precioMemo3.Size = new System.Drawing.Size(100, 20);
@@ -832,7 +824,7 @@
             // 
             // stockMemo2
             // 
-            this.stockMemo2.Location = new System.Drawing.Point(636, 123);
+            this.stockMemo2.Location = new System.Drawing.Point(602, 123);
             this.stockMemo2.Name = "stockMemo2";
             this.stockMemo2.ReadOnly = true;
             this.stockMemo2.Size = new System.Drawing.Size(100, 20);
@@ -840,7 +832,7 @@
             // 
             // precioMemo2
             // 
-            this.precioMemo2.Location = new System.Drawing.Point(636, 82);
+            this.precioMemo2.Location = new System.Drawing.Point(602, 82);
             this.precioMemo2.Name = "precioMemo2";
             this.precioMemo2.ReadOnly = true;
             this.precioMemo2.Size = new System.Drawing.Size(100, 20);
@@ -848,7 +840,7 @@
             // 
             // stockMemo1
             // 
-            this.stockMemo1.Location = new System.Drawing.Point(266, 123);
+            this.stockMemo1.Location = new System.Drawing.Point(232, 123);
             this.stockMemo1.Name = "stockMemo1";
             this.stockMemo1.ReadOnly = true;
             this.stockMemo1.Size = new System.Drawing.Size(100, 20);
@@ -856,7 +848,7 @@
             // 
             // precioMemo1
             // 
-            this.precioMemo1.Location = new System.Drawing.Point(266, 82);
+            this.precioMemo1.Location = new System.Drawing.Point(232, 82);
             this.precioMemo1.Name = "precioMemo1";
             this.precioMemo1.ReadOnly = true;
             this.precioMemo1.Size = new System.Drawing.Size(100, 20);
@@ -865,7 +857,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox14.Location = new System.Drawing.Point(422, 195);
+            this.pictureBox14.Location = new System.Drawing.Point(388, 195);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(139, 107);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -875,7 +867,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox6.Location = new System.Drawing.Point(422, 42);
+            this.pictureBox6.Location = new System.Drawing.Point(388, 42);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(139, 107);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -885,7 +877,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox12.Location = new System.Drawing.Point(70, 195);
+            this.pictureBox12.Location = new System.Drawing.Point(36, 195);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(139, 107);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -895,7 +887,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(586, 275);
+            this.label18.Location = new System.Drawing.Point(552, 275);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(35, 13);
             this.label18.TabIndex = 0;
@@ -904,7 +896,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(223, 275);
+            this.label19.Location = new System.Drawing.Point(189, 275);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(35, 13);
             this.label19.TabIndex = 0;
@@ -913,7 +905,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(223, 123);
+            this.label20.Location = new System.Drawing.Point(189, 123);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(35, 13);
             this.label20.TabIndex = 0;
@@ -922,7 +914,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(586, 237);
+            this.label21.Location = new System.Drawing.Point(552, 237);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(37, 13);
             this.label21.TabIndex = 0;
@@ -931,7 +923,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(223, 237);
+            this.label22.Location = new System.Drawing.Point(189, 237);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(37, 13);
             this.label22.TabIndex = 0;
@@ -940,7 +932,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(584, 127);
+            this.label23.Location = new System.Drawing.Point(550, 127);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(35, 13);
             this.label23.TabIndex = 0;
@@ -949,7 +941,7 @@
             // checkBoxMemoria4
             // 
             this.checkBoxMemoria4.AutoSize = true;
-            this.checkBoxMemoria4.Location = new System.Drawing.Point(587, 195);
+            this.checkBoxMemoria4.Location = new System.Drawing.Point(553, 195);
             this.checkBoxMemoria4.Name = "checkBoxMemoria4";
             this.checkBoxMemoria4.Size = new System.Drawing.Size(149, 17);
             this.checkBoxMemoria4.TabIndex = 0;
@@ -960,7 +952,7 @@
             // checkBoxMemoria3
             // 
             this.checkBoxMemoria3.AutoSize = true;
-            this.checkBoxMemoria3.Location = new System.Drawing.Point(226, 195);
+            this.checkBoxMemoria3.Location = new System.Drawing.Point(192, 195);
             this.checkBoxMemoria3.Name = "checkBoxMemoria3";
             this.checkBoxMemoria3.Size = new System.Drawing.Size(149, 17);
             this.checkBoxMemoria3.TabIndex = 0;
@@ -971,7 +963,7 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(223, 82);
+            this.label24.Location = new System.Drawing.Point(189, 82);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(37, 13);
             this.label24.TabIndex = 0;
@@ -980,7 +972,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(584, 82);
+            this.label25.Location = new System.Drawing.Point(550, 82);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(37, 13);
             this.label25.TabIndex = 0;
@@ -989,7 +981,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Proyecto_programacion_3.Properties.Resources.MEMORIA1;
-            this.pictureBox7.Location = new System.Drawing.Point(71, 42);
+            this.pictureBox7.Location = new System.Drawing.Point(37, 42);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(139, 107);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -999,7 +991,7 @@
             // checkBoxMemoria1
             // 
             this.checkBoxMemoria1.AutoSize = true;
-            this.checkBoxMemoria1.Location = new System.Drawing.Point(226, 42);
+            this.checkBoxMemoria1.Location = new System.Drawing.Point(192, 42);
             this.checkBoxMemoria1.Name = "checkBoxMemoria1";
             this.checkBoxMemoria1.Size = new System.Drawing.Size(149, 17);
             this.checkBoxMemoria1.TabIndex = 0;
@@ -1010,7 +1002,7 @@
             // checkBoxMemoria2
             // 
             this.checkBoxMemoria2.AutoSize = true;
-            this.checkBoxMemoria2.Location = new System.Drawing.Point(587, 42);
+            this.checkBoxMemoria2.Location = new System.Drawing.Point(553, 42);
             this.checkBoxMemoria2.Name = "checkBoxMemoria2";
             this.checkBoxMemoria2.Size = new System.Drawing.Size(149, 17);
             this.checkBoxMemoria2.TabIndex = 0;
@@ -1044,7 +1036,7 @@
             this.groupDisco1.Controls.Add(this.pictureBox11);
             this.groupDisco1.Controls.Add(this.checkBoxDisco1);
             this.groupDisco1.Controls.Add(this.checkBoxDisco2);
-            this.groupDisco1.Location = new System.Drawing.Point(94, 167);
+            this.groupDisco1.Location = new System.Drawing.Point(873, 180);
             this.groupDisco1.Margin = new System.Windows.Forms.Padding(0);
             this.groupDisco1.Name = "groupDisco1";
             this.groupDisco1.Size = new System.Drawing.Size(766, 342);
@@ -1055,7 +1047,7 @@
             // 
             // stockDisco4
             // 
-            this.stockDisco4.Location = new System.Drawing.Point(647, 275);
+            this.stockDisco4.Location = new System.Drawing.Point(600, 277);
             this.stockDisco4.Name = "stockDisco4";
             this.stockDisco4.ReadOnly = true;
             this.stockDisco4.Size = new System.Drawing.Size(100, 20);
@@ -1063,7 +1055,7 @@
             // 
             // precioDisco4
             // 
-            this.precioDisco4.Location = new System.Drawing.Point(647, 234);
+            this.precioDisco4.Location = new System.Drawing.Point(600, 236);
             this.precioDisco4.Name = "precioDisco4";
             this.precioDisco4.ReadOnly = true;
             this.precioDisco4.Size = new System.Drawing.Size(100, 20);
@@ -1071,7 +1063,7 @@
             // 
             // stockDisco3
             // 
-            this.stockDisco3.Location = new System.Drawing.Point(297, 275);
+            this.stockDisco3.Location = new System.Drawing.Point(250, 277);
             this.stockDisco3.Name = "stockDisco3";
             this.stockDisco3.ReadOnly = true;
             this.stockDisco3.Size = new System.Drawing.Size(100, 20);
@@ -1079,7 +1071,7 @@
             // 
             // precioDisco3
             // 
-            this.precioDisco3.Location = new System.Drawing.Point(297, 234);
+            this.precioDisco3.Location = new System.Drawing.Point(250, 236);
             this.precioDisco3.Name = "precioDisco3";
             this.precioDisco3.ReadOnly = true;
             this.precioDisco3.Size = new System.Drawing.Size(100, 20);
@@ -1087,7 +1079,7 @@
             // 
             // stockDisco2
             // 
-            this.stockDisco2.Location = new System.Drawing.Point(647, 123);
+            this.stockDisco2.Location = new System.Drawing.Point(600, 125);
             this.stockDisco2.Name = "stockDisco2";
             this.stockDisco2.ReadOnly = true;
             this.stockDisco2.Size = new System.Drawing.Size(100, 20);
@@ -1095,7 +1087,7 @@
             // 
             // precioDisco2
             // 
-            this.precioDisco2.Location = new System.Drawing.Point(647, 82);
+            this.precioDisco2.Location = new System.Drawing.Point(600, 84);
             this.precioDisco2.Name = "precioDisco2";
             this.precioDisco2.ReadOnly = true;
             this.precioDisco2.Size = new System.Drawing.Size(100, 20);
@@ -1103,7 +1095,7 @@
             // 
             // stockDisco1
             // 
-            this.stockDisco1.Location = new System.Drawing.Point(297, 120);
+            this.stockDisco1.Location = new System.Drawing.Point(250, 122);
             this.stockDisco1.Name = "stockDisco1";
             this.stockDisco1.ReadOnly = true;
             this.stockDisco1.Size = new System.Drawing.Size(100, 20);
@@ -1111,7 +1103,7 @@
             // 
             // precioDisco1
             // 
-            this.precioDisco1.Location = new System.Drawing.Point(297, 79);
+            this.precioDisco1.Location = new System.Drawing.Point(250, 81);
             this.precioDisco1.Name = "precioDisco1";
             this.precioDisco1.ReadOnly = true;
             this.precioDisco1.Size = new System.Drawing.Size(100, 20);
@@ -1120,7 +1112,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox9.Location = new System.Drawing.Point(421, 195);
+            this.pictureBox9.Location = new System.Drawing.Point(374, 197);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(139, 107);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1130,7 +1122,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox10.Location = new System.Drawing.Point(421, 42);
+            this.pictureBox10.Location = new System.Drawing.Point(374, 44);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(139, 107);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1140,7 +1132,7 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox13.Location = new System.Drawing.Point(96, 195);
+            this.pictureBox13.Location = new System.Drawing.Point(49, 197);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(139, 107);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1150,7 +1142,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(604, 275);
+            this.label26.Location = new System.Drawing.Point(557, 277);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(35, 13);
             this.label26.TabIndex = 0;
@@ -1159,7 +1151,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(250, 275);
+            this.label27.Location = new System.Drawing.Point(203, 277);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(35, 13);
             this.label27.TabIndex = 0;
@@ -1168,7 +1160,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(256, 123);
+            this.label28.Location = new System.Drawing.Point(209, 125);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(35, 13);
             this.label28.TabIndex = 0;
@@ -1177,7 +1169,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(602, 237);
+            this.label29.Location = new System.Drawing.Point(555, 239);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(37, 13);
             this.label29.TabIndex = 0;
@@ -1186,7 +1178,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(250, 237);
+            this.label30.Location = new System.Drawing.Point(203, 239);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(37, 13);
             this.label30.TabIndex = 0;
@@ -1195,7 +1187,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(604, 127);
+            this.label31.Location = new System.Drawing.Point(557, 129);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(35, 13);
             this.label31.TabIndex = 0;
@@ -1204,7 +1196,7 @@
             // checkBoxDisco4
             // 
             this.checkBoxDisco4.AutoSize = true;
-            this.checkBoxDisco4.Location = new System.Drawing.Point(605, 195);
+            this.checkBoxDisco4.Location = new System.Drawing.Point(558, 197);
             this.checkBoxDisco4.Name = "checkBoxDisco4";
             this.checkBoxDisco4.Size = new System.Drawing.Size(148, 17);
             this.checkBoxDisco4.TabIndex = 0;
@@ -1215,7 +1207,7 @@
             // checkBoxDisco3
             // 
             this.checkBoxDisco3.AutoSize = true;
-            this.checkBoxDisco3.Location = new System.Drawing.Point(253, 195);
+            this.checkBoxDisco3.Location = new System.Drawing.Point(206, 197);
             this.checkBoxDisco3.Name = "checkBoxDisco3";
             this.checkBoxDisco3.Size = new System.Drawing.Size(134, 17);
             this.checkBoxDisco3.TabIndex = 0;
@@ -1226,7 +1218,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(254, 82);
+            this.label32.Location = new System.Drawing.Point(207, 84);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(37, 13);
             this.label32.TabIndex = 0;
@@ -1235,7 +1227,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(604, 82);
+            this.label33.Location = new System.Drawing.Point(557, 84);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(37, 13);
             this.label33.TabIndex = 0;
@@ -1244,7 +1236,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Proyecto_programacion_3.Properties.Resources.MOTHER1;
-            this.pictureBox11.Location = new System.Drawing.Point(96, 40);
+            this.pictureBox11.Location = new System.Drawing.Point(49, 42);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(139, 107);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1254,7 +1246,7 @@
             // checkBoxDisco1
             // 
             this.checkBoxDisco1.AutoSize = true;
-            this.checkBoxDisco1.Location = new System.Drawing.Point(253, 42);
+            this.checkBoxDisco1.Location = new System.Drawing.Point(206, 44);
             this.checkBoxDisco1.Name = "checkBoxDisco1";
             this.checkBoxDisco1.Size = new System.Drawing.Size(147, 17);
             this.checkBoxDisco1.TabIndex = 0;
@@ -1265,7 +1257,7 @@
             // checkBoxDisco2
             // 
             this.checkBoxDisco2.AutoSize = true;
-            this.checkBoxDisco2.Location = new System.Drawing.Point(605, 42);
+            this.checkBoxDisco2.Location = new System.Drawing.Point(558, 44);
             this.checkBoxDisco2.Name = "checkBoxDisco2";
             this.checkBoxDisco2.Size = new System.Drawing.Size(147, 17);
             this.checkBoxDisco2.TabIndex = 8;
@@ -1275,17 +1267,40 @@
             // 
             // precioTotal
             // 
-            this.precioTotal.Location = new System.Drawing.Point(147, 69);
+            this.precioTotal.Enabled = false;
+            this.precioTotal.Location = new System.Drawing.Point(121, 73);
             this.precioTotal.Name = "precioTotal";
             this.precioTotal.Size = new System.Drawing.Size(100, 20);
             this.precioTotal.TabIndex = 22;
             this.precioTotal.Text = "0";
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Location = new System.Drawing.Point(784, 551);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(70, 13);
+            this.linkLabel3.TabIndex = 23;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Cerrar Sesion";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(407, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 13);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "@ WEST BYTE @";
             // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 593);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.precioTotal);
             this.Controls.Add(this.groupDisco1);
             this.Controls.Add(this.groupMemoria1);
@@ -1298,10 +1313,10 @@
             this.Controls.Add(this.ram);
             this.Controls.Add(this.mother);
             this.Controls.Add(this.micro);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmInicio";
             this.Text = "Inicio";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmInicio_FormClosing);
             this.Load += new System.EventHandler(this.frmInicio_Load);
             this.groupMicros1.ResumeLayout(false);
             this.groupMicros1.PerformLayout();
@@ -1335,7 +1350,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button micro;
         private System.Windows.Forms.Button mother;
         private System.Windows.Forms.Button ram;
@@ -1444,5 +1458,7 @@
         private System.Windows.Forms.TextBox stockMicro1;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.TextBox precioTotal;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Label label2;
     }
 }

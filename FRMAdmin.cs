@@ -155,11 +155,7 @@ namespace Proyecto_programacion_3
             MessageBox.Show("Se modifico el stock CORRECTAMENTE!", "Moficar Stock", MessageBoxButtons.OK);
         }
 
-        private void frmAdmin_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-
-        }
+     
 
         private void logout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -183,6 +179,19 @@ namespace Proyecto_programacion_3
 
             precio.Text = temporal.precio.ToString();
             stock.Text = temporal.stock.ToString();
+        }
+
+        private void frmAdmin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Desea salir de la aplicacion?", "West Byte",
+               MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                Application.ExitThread();
+            }
         }
     }
 }

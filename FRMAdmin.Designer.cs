@@ -166,7 +166,8 @@
             this.Controls.Add(this.modificarStock);
             this.Name = "frmAdmin";
             this.Text = "Modo Administrador";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAdmin_FormClosed);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAdmin_FormClosing);
+            
             this.Load += new System.EventHandler(this.Admin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

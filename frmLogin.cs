@@ -76,19 +76,20 @@ namespace Proyecto_programacion_3
             this.Hide();
         }
 
+       
 
-        // revisar cerrar
-        //private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
-        //{
-        //    if (MessageBox.Show("Desea salir de la aplicacion?", "CoronaManagement 2020",
-        //        MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
-        //    {
-        //        e.Cancel = true;
-        //    }
-        //    else
-        //    {
-        //        Application.ExitThread();
-        //    }
-        //}
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Desea salir de la aplicacion?", "West Byte",
+                 MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                Application.ExitThread();
+            }
+        }
+
     }
 }

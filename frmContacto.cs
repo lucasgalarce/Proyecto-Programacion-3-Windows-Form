@@ -16,5 +16,10 @@ namespace Proyecto_programacion_3
         {
             InitializeComponent();
         }
+
+        private void frmContacto_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

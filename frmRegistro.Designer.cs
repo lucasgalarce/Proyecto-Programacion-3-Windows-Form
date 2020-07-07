@@ -152,7 +152,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.newUser);
             this.Name = "frmRegistro";
-            this.Text = "frmRegistro";
+            this.Text = "Registrarse - West Byte";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmRegistro_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

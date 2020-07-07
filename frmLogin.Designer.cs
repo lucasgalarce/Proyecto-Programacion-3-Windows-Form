@@ -146,6 +146,7 @@
             this.Controls.Add(this.userLogin);
             this.Name = "frmLogin";
             this.Text = "WEST BYTE - Inicio";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
             
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
