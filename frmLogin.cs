@@ -40,8 +40,8 @@ namespace Proyecto_programacion_3
             if (Program.getEmpresa().buscarAdministrador(findUser))
             {
                 MessageBox.Show("Bienvenido a WEST BYTE / Admin Mode", "Welcome", MessageBoxButtons.OK);
-                frmAdmin frmAdministrador = new frmAdmin();
 
+                frmAdmin frmAdministrador = new frmAdmin();
                 frmAdministrador.Show();
                 this.Hide();
 
@@ -51,9 +51,9 @@ namespace Proyecto_programacion_3
                 if (Program.getEmpresa().buscarUsuario(findUser))
                 {
                     MessageBox.Show("Se Ingreso Satisfactoriamente", "Ingreso con Exito!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                     frmInicio inicio = new frmInicio();
                     inicio.Show();
-
                     this.Hide();
                 }
                 else
