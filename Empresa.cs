@@ -122,16 +122,20 @@ namespace Proyecto_programacion_3
             Usuario administrador = new Usuario("admin", "admin");
             usuariosRepo.Add(administrador);
 
-            Micro micro1 = new Micro("i3 7800k", 10000, 10);
+            Usuario usuario = new Usuario("user", "user");
+            usuariosRepo.Add(usuario);
+
+
+            Micro micro1 = new Micro("i3 7800k", 14000, 10);
             microsRepo.Add(micro1);
 
-            Micro micro2 = new Micro("i5 7600k", 15000, 5);
+            Micro micro2 = new Micro("i5 7600k", 30000, 5);
             microsRepo.Add(micro2);
 
-            Micro micro3 = new Micro("i7 8800k", 25000, 5);
+            Micro micro3 = new Micro("i7 8800k", 50000, 5);
             microsRepo.Add(micro3);
 
-            Micro micro4 = new Micro("i9 9900k", 40000, 3);
+            Micro micro4 = new Micro("i9 9900k", 60000, 3);
             microsRepo.Add(micro4);
 
             Mother mother1 = new Mother("ASUS PRO", 5000, 10);
@@ -140,34 +144,34 @@ namespace Proyecto_programacion_3
             Mother mother2 = new Mother("Gigabyte 320", 10000, 5);
             mothersRepo.Add(mother2);
 
-            Mother mother3 = new Mother("MSI PRO 2", 20000, 5);
+            Mother mother3 = new Mother("MSI PRO 2", 15000, 5);
             mothersRepo.Add(mother3);
 
-            Mother mother4 = new Mother("Asrock 1150", 30000, 3);
+            Mother mother4 = new Mother("Asrock 1150", 20000, 3);
             mothersRepo.Add(mother4);
 
-            Memoria memoria1 = new Memoria("DDR3 4GB 1333ghz", 5000, 10);
+            Memoria memoria1 = new Memoria("DDR3 4GB 1333ghz", 3200, 10);
             memosRepo.Add(memoria1);
 
-            Memoria memoria2 = new Memoria("DDR3 8GB 1333ghz", 10000, 5);
+            Memoria memoria2 = new Memoria("DDR3 8GB 1333ghz", 5000, 5);
             memosRepo.Add(memoria2);
 
-            Memoria memoria3 = new Memoria("DDR4 4GB 2400ghz", 20000, 5);
+            Memoria memoria3 = new Memoria("DDR4 4GB 2400ghz", 4000, 5);
             memosRepo.Add(memoria3);
 
-            Memoria memoria4 = new Memoria("DDR4 8GB 2400ghz", 30000, 3);
+            Memoria memoria4 = new Memoria("DDR4 8GB 2400ghz", 6000, 3);
             memosRepo.Add(memoria4);
 
-            Disco disco1 = new Disco("HDD 250GB Western", 5000, 10);
+            Disco disco1 = new Disco("HDD 250GB Western", 3500, 10);
             discosRepo.Add(disco1);
 
-            Disco disco2 = new Disco("HDD 500GB Western", 10000, 5);
+            Disco disco2 = new Disco("HDD 500GB Western", 4500, 5);
             discosRepo.Add(disco2);
 
-            Disco disco3 = new Disco("HDD 1TB Western", 20000, 5);
+            Disco disco3 = new Disco("HDD 1TB Western", 5500, 5);
             discosRepo.Add(disco3);
 
-            Disco disco4 = new Disco("SSD 250GB Western", 30000, 3);
+            Disco disco4 = new Disco("SSD 250GB Western", 3500, 5);
             discosRepo.Add(disco4);
 
         }        

@@ -404,92 +404,130 @@ namespace Proyecto_programacion_3
 
         private void checkBoxMemoria2_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBoxMemoria2.Checked)
+            Memoria temporal = Program.getEmpresa().buscarMemoria("DDR3 8GB 1333ghz");
+
+            if (checkBoxMemoria2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo2.Text) + Int32.Parse(precioTotal.Text)).ToString();
-
+                listacompras.Add(temporal);
+                stockMemo2.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxMemoria2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo2.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockMemo2.Text = (temporal.stock).ToString();
             }
         }
 
         private void checkBoxMemoria3_CheckedChanged(object sender, EventArgs e)
         {
+            Memoria temporal = Program.getEmpresa().buscarMemoria("DDR4 4GB 2400ghz");
+
             if (checkBoxMemoria3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo3.Text) + Int32.Parse(precioTotal.Text)).ToString();
+                listacompras.Add(temporal);
+                stockMemo3.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxMemoria3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo3.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockMemo3.Text = (temporal.stock).ToString();
             }
         }
 
         private void checkBoxMemoria4_CheckedChanged(object sender, EventArgs e)
         {
+            Memoria temporal = Program.getEmpresa().buscarMemoria("DDR4 4GB 2400ghz");
+
             if (checkBoxMemoria4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo4.Text) + Int32.Parse(precioTotal.Text)).ToString();
-
+                listacompras.Add(temporal);
+                stockMemo4.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxMemoria4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo4.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockMemo4.Text = (temporal.stock).ToString();
             }
         }
 
         private void checkBoxDisco1_CheckedChanged(object sender, EventArgs e)
         {
+            Disco temporal = Program.getEmpresa().buscarDisco("HDD 250GB Western");
+
             if (checkBoxDisco1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco1.Text) + Int32.Parse(precioTotal.Text)).ToString();
+                listacompras.Add(temporal);
+                stockDisco1.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxDisco1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco1.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockDisco1.Text = (temporal.stock).ToString();
             }
         }
 
         private void checkBoxDisco2_CheckedChanged(object sender, EventArgs e)
         {
+            Disco temporal = Program.getEmpresa().buscarDisco("HDD 500GB Western");
+
             if (checkBoxDisco2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco2.Text) + Int32.Parse(precioTotal.Text)).ToString();
-
+                listacompras.Add(temporal);
+                stockDisco2.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxDisco2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco2.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockDisco2.Text = (temporal.stock).ToString();
             }
         }
 
         private void checkBoxDisco3_CheckedChanged(object sender, EventArgs e)
         {
+            Disco temporal = Program.getEmpresa().buscarDisco("HDD 1TB Western");
+
             if (checkBoxDisco3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco3.Text) + Int32.Parse(precioTotal.Text)).ToString();
-
+                listacompras.Add(temporal);
+                stockDisco3.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxDisco3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco3.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockDisco3.Text = (temporal.stock).ToString();
             }
         }
 
         private void checkBoxDisco4_CheckedChanged(object sender, EventArgs e)
         {
+            Disco temporal = Program.getEmpresa().buscarDisco("SSD 250GB Western");
+
             if (checkBoxDisco4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco4.Text) + Int32.Parse(precioTotal.Text)).ToString();
+                listacompras.Add(temporal);
+                stockDisco4.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxDisco4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco4.Text)).ToString();
+                listacompras.Remove(temporal);
+                stockDisco4.Text = (temporal.stock).ToString();
             }
         }
 
