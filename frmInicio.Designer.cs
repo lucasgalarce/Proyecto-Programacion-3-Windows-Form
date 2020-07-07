@@ -46,6 +46,15 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.groupMicros1 = new System.Windows.Forms.GroupBox();
+            this.stockMicro1 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.stockMicro4 = new System.Windows.Forms.TextBox();
+            this.precioMicro4 = new System.Windows.Forms.TextBox();
+            this.stockMicro2 = new System.Windows.Forms.TextBox();
+            this.precioMicro2 = new System.Windows.Forms.TextBox();
+            this.stockMicro3 = new System.Windows.Forms.TextBox();
+            this.precioMicro3 = new System.Windows.Forms.TextBox();
+            this.precioMicro1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.imgMicro4 = new System.Windows.Forms.PictureBox();
             this.imgMicro3 = new System.Windows.Forms.PictureBox();
@@ -54,6 +63,14 @@
             this.imgMicro2 = new System.Windows.Forms.PictureBox();
             this.checkBoxMicro2 = new System.Windows.Forms.CheckBox();
             this.groupMother1 = new System.Windows.Forms.GroupBox();
+            this.stockMother4 = new System.Windows.Forms.TextBox();
+            this.precioMother4 = new System.Windows.Forms.TextBox();
+            this.stockMother3 = new System.Windows.Forms.TextBox();
+            this.precioMother3 = new System.Windows.Forms.TextBox();
+            this.stockMother2 = new System.Windows.Forms.TextBox();
+            this.stockMother1 = new System.Windows.Forms.TextBox();
+            this.precioMother2 = new System.Windows.Forms.TextBox();
+            this.precioMother1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -71,6 +88,14 @@
             this.checkBoxMother1 = new System.Windows.Forms.CheckBox();
             this.checkBoxMother2 = new System.Windows.Forms.CheckBox();
             this.groupMemoria1 = new System.Windows.Forms.GroupBox();
+            this.stockMemo4 = new System.Windows.Forms.TextBox();
+            this.precioMemo4 = new System.Windows.Forms.TextBox();
+            this.stockMemo3 = new System.Windows.Forms.TextBox();
+            this.precioMemo3 = new System.Windows.Forms.TextBox();
+            this.stockMemo2 = new System.Windows.Forms.TextBox();
+            this.precioMemo2 = new System.Windows.Forms.TextBox();
+            this.stockMemo1 = new System.Windows.Forms.TextBox();
+            this.precioMemo1 = new System.Windows.Forms.TextBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -88,6 +113,14 @@
             this.checkBoxMemoria1 = new System.Windows.Forms.CheckBox();
             this.checkBoxMemoria2 = new System.Windows.Forms.CheckBox();
             this.groupDisco1 = new System.Windows.Forms.GroupBox();
+            this.stockDisco4 = new System.Windows.Forms.TextBox();
+            this.precioDisco4 = new System.Windows.Forms.TextBox();
+            this.stockDisco3 = new System.Windows.Forms.TextBox();
+            this.precioDisco3 = new System.Windows.Forms.TextBox();
+            this.stockDisco2 = new System.Windows.Forms.TextBox();
+            this.precioDisco2 = new System.Windows.Forms.TextBox();
+            this.stockDisco1 = new System.Windows.Forms.TextBox();
+            this.precioDisco1 = new System.Windows.Forms.TextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
@@ -104,39 +137,6 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.checkBoxDisco1 = new System.Windows.Forms.CheckBox();
             this.checkBoxDisco2 = new System.Windows.Forms.CheckBox();
-            this.precioMother1 = new System.Windows.Forms.TextBox();
-            this.precioMother2 = new System.Windows.Forms.TextBox();
-            this.stockMother1 = new System.Windows.Forms.TextBox();
-            this.stockMother2 = new System.Windows.Forms.TextBox();
-            this.precioMother3 = new System.Windows.Forms.TextBox();
-            this.stockMother3 = new System.Windows.Forms.TextBox();
-            this.precioMother4 = new System.Windows.Forms.TextBox();
-            this.stockMother4 = new System.Windows.Forms.TextBox();
-            this.stockDisco1 = new System.Windows.Forms.TextBox();
-            this.precioDisco1 = new System.Windows.Forms.TextBox();
-            this.stockDisco2 = new System.Windows.Forms.TextBox();
-            this.precioDisco2 = new System.Windows.Forms.TextBox();
-            this.stockDisco3 = new System.Windows.Forms.TextBox();
-            this.precioDisco3 = new System.Windows.Forms.TextBox();
-            this.stockDisco4 = new System.Windows.Forms.TextBox();
-            this.precioDisco4 = new System.Windows.Forms.TextBox();
-            this.precioMicro1 = new System.Windows.Forms.TextBox();
-            this.stockMicro3 = new System.Windows.Forms.TextBox();
-            this.precioMicro3 = new System.Windows.Forms.TextBox();
-            this.stockMicro2 = new System.Windows.Forms.TextBox();
-            this.precioMicro2 = new System.Windows.Forms.TextBox();
-            this.stockMicro4 = new System.Windows.Forms.TextBox();
-            this.precioMicro4 = new System.Windows.Forms.TextBox();
-            this.stockMemo1 = new System.Windows.Forms.TextBox();
-            this.precioMemo1 = new System.Windows.Forms.TextBox();
-            this.stockMemo2 = new System.Windows.Forms.TextBox();
-            this.precioMemo2 = new System.Windows.Forms.TextBox();
-            this.stockMemo3 = new System.Windows.Forms.TextBox();
-            this.precioMemo3 = new System.Windows.Forms.TextBox();
-            this.stockMemo4 = new System.Windows.Forms.TextBox();
-            this.precioMemo4 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.stockMicro1 = new System.Windows.Forms.TextBox();
             this.precioTotal = new System.Windows.Forms.TextBox();
             this.groupMicros1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgMicro4)).BeginInit();
@@ -270,6 +270,7 @@
             this.checkBoxMicro4.TabIndex = 0;
             this.checkBoxMicro4.Text = "i9 9900k";
             this.checkBoxMicro4.UseVisualStyleBackColor = true;
+            this.checkBoxMicro4.CheckedChanged += new System.EventHandler(this.checkBoxMicro4_CheckedChanged);
             // 
             // checkBoxMicro3
             // 
@@ -280,6 +281,7 @@
             this.checkBoxMicro3.TabIndex = 0;
             this.checkBoxMicro3.Text = "i7 8800k";
             this.checkBoxMicro3.UseVisualStyleBackColor = true;
+            this.checkBoxMicro3.CheckedChanged += new System.EventHandler(this.checkBoxMicro3_CheckedChanged);
             // 
             // lblMicro1
             // 
@@ -353,7 +355,7 @@
             this.groupMicros1.Controls.Add(this.checkBoxMicro1);
             this.groupMicros1.Controls.Add(this.imgMicro2);
             this.groupMicros1.Controls.Add(this.checkBoxMicro2);
-            this.groupMicros1.Location = new System.Drawing.Point(73, 185);
+            this.groupMicros1.Location = new System.Drawing.Point(431, 564);
             this.groupMicros1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMicros1.Name = "groupMicros1";
             this.groupMicros1.Size = new System.Drawing.Size(766, 342);
@@ -361,6 +363,79 @@
             this.groupMicros1.TabStop = false;
             this.groupMicros1.Text = "Micros";
             this.groupMicros1.Visible = false;
+            // 
+            // stockMicro1
+            // 
+            this.stockMicro1.Location = new System.Drawing.Point(272, 139);
+            this.stockMicro1.Name = "stockMicro1";
+            this.stockMicro1.ReadOnly = true;
+            this.stockMicro1.Size = new System.Drawing.Size(100, 20);
+            this.stockMicro1.TabIndex = 27;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(231, 142);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(35, 13);
+            this.label34.TabIndex = 26;
+            this.label34.Text = "Stock";
+            // 
+            // stockMicro4
+            // 
+            this.stockMicro4.Location = new System.Drawing.Point(594, 287);
+            this.stockMicro4.Name = "stockMicro4";
+            this.stockMicro4.ReadOnly = true;
+            this.stockMicro4.Size = new System.Drawing.Size(100, 20);
+            this.stockMicro4.TabIndex = 25;
+            // 
+            // precioMicro4
+            // 
+            this.precioMicro4.Location = new System.Drawing.Point(594, 246);
+            this.precioMicro4.Name = "precioMicro4";
+            this.precioMicro4.ReadOnly = true;
+            this.precioMicro4.Size = new System.Drawing.Size(100, 20);
+            this.precioMicro4.TabIndex = 24;
+            // 
+            // stockMicro2
+            // 
+            this.stockMicro2.Location = new System.Drawing.Point(596, 139);
+            this.stockMicro2.Name = "stockMicro2";
+            this.stockMicro2.ReadOnly = true;
+            this.stockMicro2.Size = new System.Drawing.Size(100, 20);
+            this.stockMicro2.TabIndex = 23;
+            // 
+            // precioMicro2
+            // 
+            this.precioMicro2.Location = new System.Drawing.Point(596, 98);
+            this.precioMicro2.Name = "precioMicro2";
+            this.precioMicro2.ReadOnly = true;
+            this.precioMicro2.Size = new System.Drawing.Size(100, 20);
+            this.precioMicro2.TabIndex = 22;
+            // 
+            // stockMicro3
+            // 
+            this.stockMicro3.Location = new System.Drawing.Point(275, 291);
+            this.stockMicro3.Name = "stockMicro3";
+            this.stockMicro3.ReadOnly = true;
+            this.stockMicro3.Size = new System.Drawing.Size(100, 20);
+            this.stockMicro3.TabIndex = 21;
+            // 
+            // precioMicro3
+            // 
+            this.precioMicro3.Location = new System.Drawing.Point(275, 250);
+            this.precioMicro3.Name = "precioMicro3";
+            this.precioMicro3.ReadOnly = true;
+            this.precioMicro3.Size = new System.Drawing.Size(100, 20);
+            this.precioMicro3.TabIndex = 20;
+            // 
+            // precioMicro1
+            // 
+            this.precioMicro1.Location = new System.Drawing.Point(272, 95);
+            this.precioMicro1.Name = "precioMicro1";
+            this.precioMicro1.ReadOnly = true;
+            this.precioMicro1.Size = new System.Drawing.Size(100, 20);
+            this.precioMicro1.TabIndex = 18;
             // 
             // label9
             // 
@@ -430,6 +505,7 @@
             this.checkBoxMicro2.TabIndex = 0;
             this.checkBoxMicro2.Text = "i5 7600k";
             this.checkBoxMicro2.UseVisualStyleBackColor = true;
+            this.checkBoxMicro2.CheckedChanged += new System.EventHandler(this.checkBoxMicro2_CheckedChanged);
             // 
             // groupMother1
             // 
@@ -457,7 +533,7 @@
             this.groupMother1.Controls.Add(this.pictureBox3);
             this.groupMother1.Controls.Add(this.checkBoxMother1);
             this.groupMother1.Controls.Add(this.checkBoxMother2);
-            this.groupMother1.Location = new System.Drawing.Point(9, 527);
+            this.groupMother1.Location = new System.Drawing.Point(73, 180);
             this.groupMother1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMother1.Name = "groupMother1";
             this.groupMother1.Size = new System.Drawing.Size(766, 342);
@@ -465,6 +541,71 @@
             this.groupMother1.TabStop = false;
             this.groupMother1.Text = "Mothers";
             this.groupMother1.Visible = false;
+            // 
+            // stockMother4
+            // 
+            this.stockMother4.Location = new System.Drawing.Point(619, 270);
+            this.stockMother4.Name = "stockMother4";
+            this.stockMother4.ReadOnly = true;
+            this.stockMother4.Size = new System.Drawing.Size(100, 20);
+            this.stockMother4.TabIndex = 22;
+            // 
+            // precioMother4
+            // 
+            this.precioMother4.Location = new System.Drawing.Point(619, 234);
+            this.precioMother4.Name = "precioMother4";
+            this.precioMother4.ReadOnly = true;
+            this.precioMother4.Size = new System.Drawing.Size(100, 20);
+            this.precioMother4.TabIndex = 21;
+            // 
+            // stockMother3
+            // 
+            this.stockMother3.Location = new System.Drawing.Point(294, 272);
+            this.stockMother3.Name = "stockMother3";
+            this.stockMother3.ReadOnly = true;
+            this.stockMother3.Size = new System.Drawing.Size(100, 20);
+            this.stockMother3.TabIndex = 20;
+            // 
+            // precioMother3
+            // 
+            this.precioMother3.Location = new System.Drawing.Point(294, 237);
+            this.precioMother3.Name = "precioMother3";
+            this.precioMother3.ReadOnly = true;
+            this.precioMother3.Size = new System.Drawing.Size(100, 20);
+            this.precioMother3.TabIndex = 19;
+            // 
+            // stockMother2
+            // 
+            this.stockMother2.Location = new System.Drawing.Point(621, 124);
+            this.stockMother2.Name = "stockMother2";
+            this.stockMother2.ReadOnly = true;
+            this.stockMother2.Size = new System.Drawing.Size(100, 20);
+            this.stockMother2.TabIndex = 18;
+            // 
+            // stockMother1
+            // 
+            this.stockMother1.Location = new System.Drawing.Point(294, 120);
+            this.stockMother1.Name = "stockMother1";
+            this.stockMother1.ReadOnly = true;
+            this.stockMother1.Size = new System.Drawing.Size(100, 20);
+            this.stockMother1.TabIndex = 17;
+            // 
+            // precioMother2
+            // 
+            this.precioMother2.Location = new System.Drawing.Point(621, 79);
+            this.precioMother2.Name = "precioMother2";
+            this.precioMother2.ReadOnly = true;
+            this.precioMother2.Size = new System.Drawing.Size(100, 20);
+            this.precioMother2.TabIndex = 16;
+            // 
+            // precioMother1
+            // 
+            this.precioMother1.Location = new System.Drawing.Point(294, 79);
+            this.precioMother1.Name = "precioMother1";
+            this.precioMother1.ReadOnly = true;
+            this.precioMother1.Size = new System.Drawing.Size(100, 20);
+            this.precioMother1.TabIndex = 15;
+            this.precioMother1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
             // 
@@ -559,6 +700,7 @@
             this.checkBoxMother4.TabIndex = 0;
             this.checkBoxMother4.Text = "Mother Asrock 1150";
             this.checkBoxMother4.UseVisualStyleBackColor = true;
+            this.checkBoxMother4.CheckedChanged += new System.EventHandler(this.checkBoxMother4_CheckedChanged);
             // 
             // checkBoxMother3
             // 
@@ -569,6 +711,7 @@
             this.checkBoxMother3.TabIndex = 0;
             this.checkBoxMother3.Text = "Mother MSI PRO 2";
             this.checkBoxMother3.UseVisualStyleBackColor = true;
+            this.checkBoxMother3.CheckedChanged += new System.EventHandler(this.checkBoxMother3_CheckedChanged);
             // 
             // label16
             // 
@@ -607,6 +750,7 @@
             this.checkBoxMother1.TabIndex = 0;
             this.checkBoxMother1.Text = "Mother ASUS PRO";
             this.checkBoxMother1.UseVisualStyleBackColor = true;
+            this.checkBoxMother1.CheckedChanged += new System.EventHandler(this.checkBoxMother1_CheckedChanged);
             // 
             // checkBoxMother2
             // 
@@ -645,7 +789,7 @@
             this.groupMemoria1.Controls.Add(this.pictureBox7);
             this.groupMemoria1.Controls.Add(this.checkBoxMemoria1);
             this.groupMemoria1.Controls.Add(this.checkBoxMemoria2);
-            this.groupMemoria1.Location = new System.Drawing.Point(25, 581);
+            this.groupMemoria1.Location = new System.Drawing.Point(11, 580);
             this.groupMemoria1.Margin = new System.Windows.Forms.Padding(0);
             this.groupMemoria1.Name = "groupMemoria1";
             this.groupMemoria1.Size = new System.Drawing.Size(766, 342);
@@ -653,6 +797,70 @@
             this.groupMemoria1.TabStop = false;
             this.groupMemoria1.Text = "Memorias RAM";
             this.groupMemoria1.Visible = false;
+            // 
+            // stockMemo4
+            // 
+            this.stockMemo4.Location = new System.Drawing.Point(636, 271);
+            this.stockMemo4.Name = "stockMemo4";
+            this.stockMemo4.ReadOnly = true;
+            this.stockMemo4.Size = new System.Drawing.Size(100, 20);
+            this.stockMemo4.TabIndex = 25;
+            // 
+            // precioMemo4
+            // 
+            this.precioMemo4.Location = new System.Drawing.Point(636, 230);
+            this.precioMemo4.Name = "precioMemo4";
+            this.precioMemo4.ReadOnly = true;
+            this.precioMemo4.Size = new System.Drawing.Size(100, 20);
+            this.precioMemo4.TabIndex = 24;
+            // 
+            // stockMemo3
+            // 
+            this.stockMemo3.Location = new System.Drawing.Point(266, 275);
+            this.stockMemo3.Name = "stockMemo3";
+            this.stockMemo3.ReadOnly = true;
+            this.stockMemo3.Size = new System.Drawing.Size(100, 20);
+            this.stockMemo3.TabIndex = 23;
+            // 
+            // precioMemo3
+            // 
+            this.precioMemo3.Location = new System.Drawing.Point(266, 234);
+            this.precioMemo3.Name = "precioMemo3";
+            this.precioMemo3.ReadOnly = true;
+            this.precioMemo3.Size = new System.Drawing.Size(100, 20);
+            this.precioMemo3.TabIndex = 22;
+            // 
+            // stockMemo2
+            // 
+            this.stockMemo2.Location = new System.Drawing.Point(636, 123);
+            this.stockMemo2.Name = "stockMemo2";
+            this.stockMemo2.ReadOnly = true;
+            this.stockMemo2.Size = new System.Drawing.Size(100, 20);
+            this.stockMemo2.TabIndex = 21;
+            // 
+            // precioMemo2
+            // 
+            this.precioMemo2.Location = new System.Drawing.Point(636, 82);
+            this.precioMemo2.Name = "precioMemo2";
+            this.precioMemo2.ReadOnly = true;
+            this.precioMemo2.Size = new System.Drawing.Size(100, 20);
+            this.precioMemo2.TabIndex = 20;
+            // 
+            // stockMemo1
+            // 
+            this.stockMemo1.Location = new System.Drawing.Point(266, 123);
+            this.stockMemo1.Name = "stockMemo1";
+            this.stockMemo1.ReadOnly = true;
+            this.stockMemo1.Size = new System.Drawing.Size(100, 20);
+            this.stockMemo1.TabIndex = 19;
+            // 
+            // precioMemo1
+            // 
+            this.precioMemo1.Location = new System.Drawing.Point(266, 82);
+            this.precioMemo1.Name = "precioMemo1";
+            this.precioMemo1.ReadOnly = true;
+            this.precioMemo1.Size = new System.Drawing.Size(100, 20);
+            this.precioMemo1.TabIndex = 18;
             // 
             // pictureBox14
             // 
@@ -747,6 +955,7 @@
             this.checkBoxMemoria4.TabIndex = 0;
             this.checkBoxMemoria4.Text = "Memoria ddr4 8gb 2400hz";
             this.checkBoxMemoria4.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria4.CheckedChanged += new System.EventHandler(this.checkBoxMemoria4_CheckedChanged);
             // 
             // checkBoxMemoria3
             // 
@@ -757,6 +966,7 @@
             this.checkBoxMemoria3.TabIndex = 0;
             this.checkBoxMemoria3.Text = "Memoria ddr4 4gb 2400hz";
             this.checkBoxMemoria3.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria3.CheckedChanged += new System.EventHandler(this.checkBoxMemoria3_CheckedChanged);
             // 
             // label24
             // 
@@ -795,6 +1005,7 @@
             this.checkBoxMemoria1.TabIndex = 0;
             this.checkBoxMemoria1.Text = "Memoria ddr3 4gb 1333hz";
             this.checkBoxMemoria1.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria1.CheckedChanged += new System.EventHandler(this.checkBoxMemoria1_CheckedChanged);
             // 
             // checkBoxMemoria2
             // 
@@ -805,6 +1016,7 @@
             this.checkBoxMemoria2.TabIndex = 0;
             this.checkBoxMemoria2.Text = "Memoria ddr3 8gb 1333hz";
             this.checkBoxMemoria2.UseVisualStyleBackColor = true;
+            this.checkBoxMemoria2.CheckedChanged += new System.EventHandler(this.checkBoxMemoria2_CheckedChanged);
             // 
             // groupDisco1
             // 
@@ -832,7 +1044,7 @@
             this.groupDisco1.Controls.Add(this.pictureBox11);
             this.groupDisco1.Controls.Add(this.checkBoxDisco1);
             this.groupDisco1.Controls.Add(this.checkBoxDisco2);
-            this.groupDisco1.Location = new System.Drawing.Point(905, 121);
+            this.groupDisco1.Location = new System.Drawing.Point(94, 167);
             this.groupDisco1.Margin = new System.Windows.Forms.Padding(0);
             this.groupDisco1.Name = "groupDisco1";
             this.groupDisco1.Size = new System.Drawing.Size(766, 342);
@@ -840,6 +1052,70 @@
             this.groupDisco1.TabStop = false;
             this.groupDisco1.Text = "Discos";
             this.groupDisco1.Visible = false;
+            // 
+            // stockDisco4
+            // 
+            this.stockDisco4.Location = new System.Drawing.Point(647, 275);
+            this.stockDisco4.Name = "stockDisco4";
+            this.stockDisco4.ReadOnly = true;
+            this.stockDisco4.Size = new System.Drawing.Size(100, 20);
+            this.stockDisco4.TabIndex = 25;
+            // 
+            // precioDisco4
+            // 
+            this.precioDisco4.Location = new System.Drawing.Point(647, 234);
+            this.precioDisco4.Name = "precioDisco4";
+            this.precioDisco4.ReadOnly = true;
+            this.precioDisco4.Size = new System.Drawing.Size(100, 20);
+            this.precioDisco4.TabIndex = 24;
+            // 
+            // stockDisco3
+            // 
+            this.stockDisco3.Location = new System.Drawing.Point(297, 275);
+            this.stockDisco3.Name = "stockDisco3";
+            this.stockDisco3.ReadOnly = true;
+            this.stockDisco3.Size = new System.Drawing.Size(100, 20);
+            this.stockDisco3.TabIndex = 23;
+            // 
+            // precioDisco3
+            // 
+            this.precioDisco3.Location = new System.Drawing.Point(297, 234);
+            this.precioDisco3.Name = "precioDisco3";
+            this.precioDisco3.ReadOnly = true;
+            this.precioDisco3.Size = new System.Drawing.Size(100, 20);
+            this.precioDisco3.TabIndex = 22;
+            // 
+            // stockDisco2
+            // 
+            this.stockDisco2.Location = new System.Drawing.Point(647, 123);
+            this.stockDisco2.Name = "stockDisco2";
+            this.stockDisco2.ReadOnly = true;
+            this.stockDisco2.Size = new System.Drawing.Size(100, 20);
+            this.stockDisco2.TabIndex = 21;
+            // 
+            // precioDisco2
+            // 
+            this.precioDisco2.Location = new System.Drawing.Point(647, 82);
+            this.precioDisco2.Name = "precioDisco2";
+            this.precioDisco2.ReadOnly = true;
+            this.precioDisco2.Size = new System.Drawing.Size(100, 20);
+            this.precioDisco2.TabIndex = 20;
+            // 
+            // stockDisco1
+            // 
+            this.stockDisco1.Location = new System.Drawing.Point(297, 120);
+            this.stockDisco1.Name = "stockDisco1";
+            this.stockDisco1.ReadOnly = true;
+            this.stockDisco1.Size = new System.Drawing.Size(100, 20);
+            this.stockDisco1.TabIndex = 19;
+            // 
+            // precioDisco1
+            // 
+            this.precioDisco1.Location = new System.Drawing.Point(297, 79);
+            this.precioDisco1.Name = "precioDisco1";
+            this.precioDisco1.ReadOnly = true;
+            this.precioDisco1.Size = new System.Drawing.Size(100, 20);
+            this.precioDisco1.TabIndex = 18;
             // 
             // pictureBox9
             // 
@@ -934,6 +1210,7 @@
             this.checkBoxDisco4.TabIndex = 0;
             this.checkBoxDisco4.Text = "SSD - 250GB WESTERN";
             this.checkBoxDisco4.UseVisualStyleBackColor = true;
+            this.checkBoxDisco4.CheckedChanged += new System.EventHandler(this.checkBoxDisco4_CheckedChanged);
             // 
             // checkBoxDisco3
             // 
@@ -944,6 +1221,7 @@
             this.checkBoxDisco3.TabIndex = 0;
             this.checkBoxDisco3.Text = "HDD- 1TB WESTERN";
             this.checkBoxDisco3.UseVisualStyleBackColor = true;
+            this.checkBoxDisco3.CheckedChanged += new System.EventHandler(this.checkBoxDisco3_CheckedChanged);
             // 
             // label32
             // 
@@ -982,6 +1260,7 @@
             this.checkBoxDisco1.TabIndex = 0;
             this.checkBoxDisco1.Text = "HDD- 250GB WESTERN";
             this.checkBoxDisco1.UseVisualStyleBackColor = true;
+            this.checkBoxDisco1.CheckedChanged += new System.EventHandler(this.checkBoxDisco1_CheckedChanged);
             // 
             // checkBoxDisco2
             // 
@@ -992,272 +1271,7 @@
             this.checkBoxDisco2.TabIndex = 8;
             this.checkBoxDisco2.Text = "HDD- 500GB WESTERN";
             this.checkBoxDisco2.UseVisualStyleBackColor = true;
-            // 
-            // precioMother1
-            // 
-            this.precioMother1.Location = new System.Drawing.Point(294, 79);
-            this.precioMother1.Name = "precioMother1";
-            this.precioMother1.ReadOnly = true;
-            this.precioMother1.Size = new System.Drawing.Size(100, 20);
-            this.precioMother1.TabIndex = 15;
-            this.precioMother1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // precioMother2
-            // 
-            this.precioMother2.Location = new System.Drawing.Point(621, 79);
-            this.precioMother2.Name = "precioMother2";
-            this.precioMother2.ReadOnly = true;
-            this.precioMother2.Size = new System.Drawing.Size(100, 20);
-            this.precioMother2.TabIndex = 16;
-            // 
-            // stockMother1
-            // 
-            this.stockMother1.Location = new System.Drawing.Point(294, 120);
-            this.stockMother1.Name = "stockMother1";
-            this.stockMother1.ReadOnly = true;
-            this.stockMother1.Size = new System.Drawing.Size(100, 20);
-            this.stockMother1.TabIndex = 17;
-            // 
-            // stockMother2
-            // 
-            this.stockMother2.Location = new System.Drawing.Point(621, 124);
-            this.stockMother2.Name = "stockMother2";
-            this.stockMother2.ReadOnly = true;
-            this.stockMother2.Size = new System.Drawing.Size(100, 20);
-            this.stockMother2.TabIndex = 18;
-            // 
-            // precioMother3
-            // 
-            this.precioMother3.Location = new System.Drawing.Point(294, 237);
-            this.precioMother3.Name = "precioMother3";
-            this.precioMother3.ReadOnly = true;
-            this.precioMother3.Size = new System.Drawing.Size(100, 20);
-            this.precioMother3.TabIndex = 19;
-            // 
-            // stockMother3
-            // 
-            this.stockMother3.Location = new System.Drawing.Point(294, 272);
-            this.stockMother3.Name = "stockMother3";
-            this.stockMother3.ReadOnly = true;
-            this.stockMother3.Size = new System.Drawing.Size(100, 20);
-            this.stockMother3.TabIndex = 20;
-            // 
-            // precioMother4
-            // 
-            this.precioMother4.Location = new System.Drawing.Point(619, 234);
-            this.precioMother4.Name = "precioMother4";
-            this.precioMother4.ReadOnly = true;
-            this.precioMother4.Size = new System.Drawing.Size(100, 20);
-            this.precioMother4.TabIndex = 21;
-            // 
-            // stockMother4
-            // 
-            this.stockMother4.Location = new System.Drawing.Point(619, 270);
-            this.stockMother4.Name = "stockMother4";
-            this.stockMother4.ReadOnly = true;
-            this.stockMother4.Size = new System.Drawing.Size(100, 20);
-            this.stockMother4.TabIndex = 22;
-            // 
-            // stockDisco1
-            // 
-            this.stockDisco1.Location = new System.Drawing.Point(297, 120);
-            this.stockDisco1.Name = "stockDisco1";
-            this.stockDisco1.ReadOnly = true;
-            this.stockDisco1.Size = new System.Drawing.Size(100, 20);
-            this.stockDisco1.TabIndex = 19;
-            // 
-            // precioDisco1
-            // 
-            this.precioDisco1.Location = new System.Drawing.Point(297, 79);
-            this.precioDisco1.Name = "precioDisco1";
-            this.precioDisco1.ReadOnly = true;
-            this.precioDisco1.Size = new System.Drawing.Size(100, 20);
-            this.precioDisco1.TabIndex = 18;
-            // 
-            // stockDisco2
-            // 
-            this.stockDisco2.Location = new System.Drawing.Point(647, 123);
-            this.stockDisco2.Name = "stockDisco2";
-            this.stockDisco2.ReadOnly = true;
-            this.stockDisco2.Size = new System.Drawing.Size(100, 20);
-            this.stockDisco2.TabIndex = 21;
-            // 
-            // precioDisco2
-            // 
-            this.precioDisco2.Location = new System.Drawing.Point(647, 82);
-            this.precioDisco2.Name = "precioDisco2";
-            this.precioDisco2.ReadOnly = true;
-            this.precioDisco2.Size = new System.Drawing.Size(100, 20);
-            this.precioDisco2.TabIndex = 20;
-            // 
-            // stockDisco3
-            // 
-            this.stockDisco3.Location = new System.Drawing.Point(297, 275);
-            this.stockDisco3.Name = "stockDisco3";
-            this.stockDisco3.ReadOnly = true;
-            this.stockDisco3.Size = new System.Drawing.Size(100, 20);
-            this.stockDisco3.TabIndex = 23;
-            // 
-            // precioDisco3
-            // 
-            this.precioDisco3.Location = new System.Drawing.Point(297, 234);
-            this.precioDisco3.Name = "precioDisco3";
-            this.precioDisco3.ReadOnly = true;
-            this.precioDisco3.Size = new System.Drawing.Size(100, 20);
-            this.precioDisco3.TabIndex = 22;
-            // 
-            // stockDisco4
-            // 
-            this.stockDisco4.Location = new System.Drawing.Point(647, 275);
-            this.stockDisco4.Name = "stockDisco4";
-            this.stockDisco4.ReadOnly = true;
-            this.stockDisco4.Size = new System.Drawing.Size(100, 20);
-            this.stockDisco4.TabIndex = 25;
-            // 
-            // precioDisco4
-            // 
-            this.precioDisco4.Location = new System.Drawing.Point(647, 234);
-            this.precioDisco4.Name = "precioDisco4";
-            this.precioDisco4.ReadOnly = true;
-            this.precioDisco4.Size = new System.Drawing.Size(100, 20);
-            this.precioDisco4.TabIndex = 24;
-            // 
-            // precioMicro1
-            // 
-            this.precioMicro1.Location = new System.Drawing.Point(272, 95);
-            this.precioMicro1.Name = "precioMicro1";
-            this.precioMicro1.ReadOnly = true;
-            this.precioMicro1.Size = new System.Drawing.Size(100, 20);
-            this.precioMicro1.TabIndex = 18;
-            // 
-            // stockMicro3
-            // 
-            this.stockMicro3.Location = new System.Drawing.Point(275, 291);
-            this.stockMicro3.Name = "stockMicro3";
-            this.stockMicro3.ReadOnly = true;
-            this.stockMicro3.Size = new System.Drawing.Size(100, 20);
-            this.stockMicro3.TabIndex = 21;
-            // 
-            // precioMicro3
-            // 
-            this.precioMicro3.Location = new System.Drawing.Point(275, 250);
-            this.precioMicro3.Name = "precioMicro3";
-            this.precioMicro3.ReadOnly = true;
-            this.precioMicro3.Size = new System.Drawing.Size(100, 20);
-            this.precioMicro3.TabIndex = 20;
-            // 
-            // stockMicro2
-            // 
-            this.stockMicro2.Location = new System.Drawing.Point(596, 139);
-            this.stockMicro2.Name = "stockMicro2";
-            this.stockMicro2.ReadOnly = true;
-            this.stockMicro2.Size = new System.Drawing.Size(100, 20);
-            this.stockMicro2.TabIndex = 23;
-            // 
-            // precioMicro2
-            // 
-            this.precioMicro2.Location = new System.Drawing.Point(596, 98);
-            this.precioMicro2.Name = "precioMicro2";
-            this.precioMicro2.ReadOnly = true;
-            this.precioMicro2.Size = new System.Drawing.Size(100, 20);
-            this.precioMicro2.TabIndex = 22;
-            // 
-            // stockMicro4
-            // 
-            this.stockMicro4.Location = new System.Drawing.Point(594, 287);
-            this.stockMicro4.Name = "stockMicro4";
-            this.stockMicro4.ReadOnly = true;
-            this.stockMicro4.Size = new System.Drawing.Size(100, 20);
-            this.stockMicro4.TabIndex = 25;
-            // 
-            // precioMicro4
-            // 
-            this.precioMicro4.Location = new System.Drawing.Point(594, 246);
-            this.precioMicro4.Name = "precioMicro4";
-            this.precioMicro4.ReadOnly = true;
-            this.precioMicro4.Size = new System.Drawing.Size(100, 20);
-            this.precioMicro4.TabIndex = 24;
-            // 
-            // stockMemo1
-            // 
-            this.stockMemo1.Location = new System.Drawing.Point(266, 123);
-            this.stockMemo1.Name = "stockMemo1";
-            this.stockMemo1.ReadOnly = true;
-            this.stockMemo1.Size = new System.Drawing.Size(100, 20);
-            this.stockMemo1.TabIndex = 19;
-            // 
-            // precioMemo1
-            // 
-            this.precioMemo1.Location = new System.Drawing.Point(266, 82);
-            this.precioMemo1.Name = "precioMemo1";
-            this.precioMemo1.ReadOnly = true;
-            this.precioMemo1.Size = new System.Drawing.Size(100, 20);
-            this.precioMemo1.TabIndex = 18;
-            // 
-            // stockMemo2
-            // 
-            this.stockMemo2.Location = new System.Drawing.Point(636, 123);
-            this.stockMemo2.Name = "stockMemo2";
-            this.stockMemo2.ReadOnly = true;
-            this.stockMemo2.Size = new System.Drawing.Size(100, 20);
-            this.stockMemo2.TabIndex = 21;
-            // 
-            // precioMemo2
-            // 
-            this.precioMemo2.Location = new System.Drawing.Point(636, 82);
-            this.precioMemo2.Name = "precioMemo2";
-            this.precioMemo2.ReadOnly = true;
-            this.precioMemo2.Size = new System.Drawing.Size(100, 20);
-            this.precioMemo2.TabIndex = 20;
-            // 
-            // stockMemo3
-            // 
-            this.stockMemo3.Location = new System.Drawing.Point(266, 275);
-            this.stockMemo3.Name = "stockMemo3";
-            this.stockMemo3.ReadOnly = true;
-            this.stockMemo3.Size = new System.Drawing.Size(100, 20);
-            this.stockMemo3.TabIndex = 23;
-            // 
-            // precioMemo3
-            // 
-            this.precioMemo3.Location = new System.Drawing.Point(266, 234);
-            this.precioMemo3.Name = "precioMemo3";
-            this.precioMemo3.ReadOnly = true;
-            this.precioMemo3.Size = new System.Drawing.Size(100, 20);
-            this.precioMemo3.TabIndex = 22;
-            // 
-            // stockMemo4
-            // 
-            this.stockMemo4.Location = new System.Drawing.Point(636, 271);
-            this.stockMemo4.Name = "stockMemo4";
-            this.stockMemo4.ReadOnly = true;
-            this.stockMemo4.Size = new System.Drawing.Size(100, 20);
-            this.stockMemo4.TabIndex = 25;
-            // 
-            // precioMemo4
-            // 
-            this.precioMemo4.Location = new System.Drawing.Point(636, 230);
-            this.precioMemo4.Name = "precioMemo4";
-            this.precioMemo4.ReadOnly = true;
-            this.precioMemo4.Size = new System.Drawing.Size(100, 20);
-            this.precioMemo4.TabIndex = 24;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(231, 142);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(35, 13);
-            this.label34.TabIndex = 26;
-            this.label34.Text = "Stock";
-            // 
-            // stockMicro1
-            // 
-            this.stockMicro1.Location = new System.Drawing.Point(272, 139);
-            this.stockMicro1.Name = "stockMicro1";
-            this.stockMicro1.ReadOnly = true;
-            this.stockMicro1.Size = new System.Drawing.Size(100, 20);
-            this.stockMicro1.TabIndex = 27;
+            this.checkBoxDisco2.CheckedChanged += new System.EventHandler(this.checkBoxDisco2_CheckedChanged);
             // 
             // precioTotal
             // 
@@ -1265,6 +1279,7 @@
             this.precioTotal.Name = "precioTotal";
             this.precioTotal.Size = new System.Drawing.Size(100, 20);
             this.precioTotal.TabIndex = 22;
+            this.precioTotal.Text = "0";
             // 
             // frmInicio
             // 

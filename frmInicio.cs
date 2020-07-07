@@ -26,7 +26,6 @@ namespace Proyecto_programacion_3
         }
 
 
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -226,7 +225,15 @@ namespace Proyecto_programacion_3
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBoxMother2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMother2.Text) + Int32.Parse(precioTotal.Text)).ToString();
 
+            }
+            else if (!checkBoxMother2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother2.Text)).ToString();
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -236,11 +243,201 @@ namespace Proyecto_programacion_3
 
         private void checkBoxMicro1_CheckedChanged(object sender, EventArgs e)
         {
+            if (checkBoxMicro1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMicro1.Text) + Int32.Parse(precioTotal.Text)).ToString();
 
-            precioTotal.Text += precioMicro1.Text;
+            }else if (!checkBoxMicro1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro1.Text)).ToString();
+            }
+            
 
+        }
 
+        private void checkBoxMicro2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMicro2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMicro2.Text) + Int32.Parse(precioTotal.Text)).ToString();
 
+            }
+            else if (!checkBoxMicro2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro2.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMicro3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMicro3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMicro3.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMicro3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro3.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMicro4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMicro4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMicro1.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMicro4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro1.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMemoria1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMemoria1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMemo1.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMemoria1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo1.Text)).ToString();
+            }
+
+        }
+
+        private void checkBoxMother1_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if(checkBoxMother1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMother1.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMother1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother1.Text)).ToString();
+            }
+
+        }
+
+        private void checkBoxMother3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMother3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMother3.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMother3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother3.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMother4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMother4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMother4.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMother4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother4.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMemoria2_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBoxMemoria2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMemo2.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMemoria2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo2.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMemoria3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMemoria3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMemo3.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMemoria3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo3.Text)).ToString();
+            }
+        }
+
+        private void checkBoxMemoria4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMemoria4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioMemo4.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxMemoria4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo4.Text)).ToString();
+            }
+        }
+
+        private void checkBoxDisco1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxDisco1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioDisco1.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxDisco1.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco1.Text)).ToString();
+            }
+        }
+
+        private void checkBoxDisco2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxDisco2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioDisco2.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxDisco2.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco2.Text)).ToString();
+            }
+        }
+
+        private void checkBoxDisco3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxDisco3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioDisco3.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxDisco3.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco3.Text)).ToString();
+            }
+        }
+
+        private void checkBoxDisco4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxDisco4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioDisco4.Text) + Int32.Parse(precioTotal.Text)).ToString();
+
+            }
+            else if (!checkBoxDisco4.Checked)
+            {
+                precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco4.Text)).ToString();
+            }
         }
     }
 }
