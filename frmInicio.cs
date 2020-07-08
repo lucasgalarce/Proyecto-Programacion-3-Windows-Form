@@ -17,27 +17,11 @@ namespace Proyecto_programacion_3
         private frmPago pago;
         private frmLogin login;
 
-        //List<componente> listacompras = new List<componente>();
-
-
         public frmInicio()
         {
             InitializeComponent();
             contacto = new frmContacto();            
             login = new frmLogin();
-
-        }
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -53,20 +37,12 @@ namespace Proyecto_programacion_3
             Hide();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
-
         private void mother_Click(object sender, EventArgs e)
         {
             groupMicros1.Visible = false;
             groupMother1.Visible = true;
             groupDisco1.Visible = false;
             groupMemoria1.Visible = false;
-           
         }
 
         private void frmInicio_Load(object sender, EventArgs e)
@@ -138,6 +114,7 @@ namespace Proyecto_programacion_3
                     precioMicro4.Text = micro.precio.ToString();
                     stockMicro4.Text = micro.stock.ToString();
                 }
+
                 contador++;
             } 
 
@@ -171,6 +148,7 @@ namespace Proyecto_programacion_3
             }
 
             contador = 1;
+
             foreach (Disco disco in listaDiscos)
             {
 
@@ -196,6 +174,7 @@ namespace Proyecto_programacion_3
                     precioDisco4.Text = disco.precio.ToString();
                     stockDisco4.Text = disco.stock.ToString();
                 }
+
                 contador++;
             }
         }
@@ -241,11 +220,6 @@ namespace Proyecto_programacion_3
                 Program.getEmpresa().listacompras.Remove(temporal);
                 stockMother2.Text = (temporal.stock).ToString();
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void checkBoxMicro1_CheckedChanged(object sender, EventArgs e)

@@ -20,11 +20,6 @@ namespace Proyecto_programacion_3
             login = new frmLogin();
         }
 
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             inicio = new frmInicio();

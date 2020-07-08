@@ -13,29 +13,15 @@ namespace Proyecto_programacion_3
 {
     public partial class frmLogin : Form
     {
-        
         public frmLogin()
         {
             InitializeComponent();
             
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
       
         private void btn_Login_Click(object sender, EventArgs e)
         {
-
             Usuario findUser = new Usuario(txtUsuario.Text, txtContrasena.Text);
-           
 
             if (Program.getEmpresa().buscarAdministrador(findUser))
             {
@@ -44,7 +30,6 @@ namespace Proyecto_programacion_3
                 frmAdmin frmAdministrador = new frmAdmin();
                 frmAdministrador.Show();
                 this.Hide();
-
             }
             else if ((txtUsuario.Text != "") && (txtContrasena.Text != ""))
             {
@@ -60,7 +45,6 @@ namespace Proyecto_programacion_3
                 {
                     MessageBox.Show("El Usuario o la Contraseña es Incorrecta", "Error 604", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
             }
             else
             {
@@ -76,8 +60,6 @@ namespace Proyecto_programacion_3
             this.Hide();
         }
 
-       
-
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Desea salir de la aplicacion?", "West Byte",
@@ -90,6 +72,5 @@ namespace Proyecto_programacion_3
                 Application.ExitThread();
             }
         }
-
     }
 }

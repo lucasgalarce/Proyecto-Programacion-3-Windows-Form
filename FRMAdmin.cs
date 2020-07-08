@@ -16,7 +16,6 @@ namespace Proyecto_programacion_3
         public frmAdmin()
         {
             InitializeComponent();
-
         }
 
         private void Admin_Load(object sender, EventArgs e)
@@ -46,7 +45,6 @@ namespace Proyecto_programacion_3
             {
                 comboBoxDiscos.Items.Add(disco.nombre);
             }
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -60,37 +58,28 @@ namespace Proyecto_programacion_3
             }
             if (comboBox1.Text == "Micro")
             {
-                
                 comboBoxMicros.Visible = true;
                 comboBoxMothers.Visible = false;                
                 comboBoxMemorias.Visible = false;
                 comboBoxDiscos.Visible = false;
                 comboBoxMicros.Location = new Point(87, 61);
-
-
             }
             if (comboBox1.Text == "Memorias")
             {
-                
                 comboBoxMemorias.Visible = true;
                 comboBoxMothers.Visible = false;
                 comboBoxMicros.Visible = false;               
                 comboBoxDiscos.Visible = false;
                 comboBoxMemorias.Location = new Point(87, 61);
-
             }
             if (comboBox1.Text == "Disco")
             {
-                
                 comboBoxDiscos.Visible = true;
                 comboBoxMothers.Visible = false;
                 comboBoxMicros.Visible = false;
                 comboBoxMemorias.Visible = false;
                 comboBoxDiscos.Location = new Point(87, 61);
-
-
             }
-
         }
 
         private void comboBoxMothers_SelectedIndexChanged(object sender, EventArgs e)
@@ -99,10 +88,7 @@ namespace Proyecto_programacion_3
 
             precio.Text = temporal.precio.ToString();
             stock.Text = temporal.stock.ToString();
-
         }
-
-
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
@@ -116,12 +102,10 @@ namespace Proyecto_programacion_3
 
         private void comboBoxMicros_SelectedIndexChanged(object sender, EventArgs e)
         {
-
             Micro temporal = Program.getEmpresa().buscarMicro(comboBoxMicros.Text);
 
             precio.Text = temporal.precio.ToString();
             stock.Text = temporal.stock.ToString();
-           
         }
 
         private void modificarStock_Click(object sender, EventArgs e)
@@ -155,14 +139,11 @@ namespace Proyecto_programacion_3
             MessageBox.Show("Se modifico el stock CORRECTAMENTE!", "Moficar Stock", MessageBoxButtons.OK);
         }
 
-     
-
         private void logout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             login = new frmLogin();
             login.Show();
             this.Hide();
-
         }
 
         private void comboBoxMemorias_SelectedIndexChanged(object sender, EventArgs e)

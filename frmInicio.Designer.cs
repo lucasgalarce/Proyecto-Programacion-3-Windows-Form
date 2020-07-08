@@ -169,7 +169,6 @@
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bienvenido! ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // micro
             // 
@@ -301,7 +300,6 @@
             this.label7.Size = new System.Drawing.Size(37, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "Precio";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label10
             // 
@@ -457,7 +455,6 @@
             this.imgMicro3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgMicro3.TabIndex = 9;
             this.imgMicro3.TabStop = false;
-            this.imgMicro3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label5
             // 
@@ -597,7 +594,6 @@
             this.precioMother1.ReadOnly = true;
             this.precioMother1.Size = new System.Drawing.Size(100, 20);
             this.precioMother1.TabIndex = 15;
-            this.precioMother1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
             // 

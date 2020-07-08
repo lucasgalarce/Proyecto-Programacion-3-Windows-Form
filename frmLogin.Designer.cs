@@ -85,7 +85,6 @@
             this.labelPassword.Size = new System.Drawing.Size(102, 18);
             this.labelPassword.TabIndex = 0;
             this.labelPassword.Text = "Contraseña";
-            this.labelPassword.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -148,7 +147,6 @@
             this.Text = "WEST BYTE - Inicio";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
             
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

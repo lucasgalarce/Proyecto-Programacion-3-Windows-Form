@@ -90,7 +90,6 @@
             this.tarjDebito.TabStop = true;
             this.tarjDebito.Text = "Tarjeta de debito";
             this.tarjDebito.UseVisualStyleBackColor = false;
-            this.tarjDebito.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // linkLabel1
             // 

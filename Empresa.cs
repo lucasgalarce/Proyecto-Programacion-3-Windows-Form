@@ -14,7 +14,6 @@ namespace Proyecto_programacion_3
     {
         public string nombre;
         public string contrasena;
-        
         public Usuario(string nombre, string contrasena)
         {
             this.nombre = nombre;
@@ -33,38 +32,31 @@ namespace Proyecto_programacion_3
         public string nombre;
         public double precio;
         public int stock;
+
         public componente(string nombre, double precio, int stock)
         {
             this.nombre = nombre;
             this.precio = precio;            
             this.stock = stock;
         }
-            
 }
 
     [Serializable]
     class Micro : componente
     {
-        
-        public Micro(string nombre, double precio, int stock) : base(nombre, precio, stock)
-        {
+        public Micro(string nombre, double precio, int stock) : base(nombre, precio, stock) { }
 
-        }
         public Micro existeEnLista(Micro m)
         {
             return m;
         }
-
     }
 
     [Serializable]
     class Mother : componente
     {
-        
-        public Mother(string nombre, double precio, int stock) : base(nombre, precio, stock)
-        {
-          
-        }
+        public Mother(string nombre, double precio, int stock) : base(nombre, precio, stock) { }
+
         public Mother existeEnLista(Mother m)
         {
             return m;
@@ -74,11 +66,8 @@ namespace Proyecto_programacion_3
     [Serializable]
     class Disco : componente
     {
-      
-        public Disco(string nombre, double precio,  int stock) : base(nombre, precio, stock)
-        {
-            
-        }
+        public Disco(string nombre, double precio,  int stock) : base(nombre, precio, stock) { }
+
         public Disco existeEnLista(Disco d)
         {
             return d;
@@ -88,16 +77,11 @@ namespace Proyecto_programacion_3
     [Serializable]
     class Memoria : componente
     {
-        
-        public Memoria(string nombre, double precio, int stock) : base(nombre, precio,  stock)
-        {
-
-        }
+        public Memoria(string nombre, double precio, int stock) : base(nombre, precio,  stock) { }
         public Memoria existeEnLista(Memoria m)
         {
             return m;
         }
-
     }
 
     [Serializable]
@@ -110,7 +94,6 @@ namespace Proyecto_programacion_3
         public List<Memoria> memosRepo;
         public List<componente> listacompras;
 
-
         public Empresa()
         {   
             usuariosRepo = new List<Usuario>();
@@ -120,13 +103,11 @@ namespace Proyecto_programacion_3
             memosRepo = new List<Memoria>();
             listacompras = new List<componente>();
 
-
             Usuario administrador = new Usuario("admin", "admin");
             usuariosRepo.Add(administrador);
 
             Usuario usuario = new Usuario("user", "user");
             usuariosRepo.Add(usuario);
-
 
             Micro micro1 = new Micro("i3 7800k", 14000, 20);
             microsRepo.Add(micro1);
@@ -175,7 +156,6 @@ namespace Proyecto_programacion_3
 
             Disco disco4 = new Disco("SSD 250GB Western", 3500, 15);
             discosRepo.Add(disco4);
-
         }        
 
         public bool agregarUsuario(Usuario u)
@@ -196,6 +176,7 @@ namespace Proyecto_programacion_3
 
             return false;
         }
+
         public bool buscarAdministrador(Usuario u)
         {
             foreach (Usuario user in this.usuariosRepo)
@@ -205,6 +186,7 @@ namespace Proyecto_programacion_3
                     return true;
                 }
             }
+
             return false;
         }
 
@@ -230,6 +212,7 @@ namespace Proyecto_programacion_3
                     return mother;
                 }
             }
+
             return null;
         }
 
@@ -242,6 +225,7 @@ namespace Proyecto_programacion_3
                     return memoria;
                 }
             }
+
             return null;
         }
 
@@ -254,6 +238,7 @@ namespace Proyecto_programacion_3
                     return disco;
                 }
             }
+
             return null;
         }
     }
