@@ -29,4 +29,4 @@ Se utiliza C# y .NET
 ## Autores :black_nib:
 
 * **Galarce Lucas** - [LinkedIn](https://www.linkedin.com/in/galarce-lucas/)
-* **Ignacio Rosato** - [LinkedIn](www.linkedin.com/in/ignacio-rosato)
+* **Ignacio Rosato** - [LinkedIn](https://www.linkedin.com/in/ignacio-rosato/)
