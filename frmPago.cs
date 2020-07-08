@@ -18,7 +18,6 @@ namespace Proyecto_programacion_3
         {
             InitializeComponent();
             login = new frmLogin();
-            //inicio = new frmInicio();
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -35,7 +34,45 @@ namespace Proyecto_programacion_3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if(efectivo.Checked)
+            {
+                MessageBox.Show("Usted va a pagar $" + totalPago.Text + " en efectivo", "West Byte",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
 
+            }
+            else if (tarjCredito.Checked)
+            {
+                MessageBox.Show("Usted va a pagar $" + totalPago.Text + " con tarjeta de credito", "West Byte",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+            }
+            else if (tarjDebito.Checked)
+            {
+                MessageBox.Show("Usted va a pagar $" + totalPago.Text + " con tarjeta de debito", "West Byte",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+            }
+            
+            foreach(componente producto in Program.getEmpresa().listacompras)
+            {
+                if (producto is Mother)
+                {
+                    Program.getEmpresa().buscarMother(producto.nombre).stock -= 1;
+                }
+                else if (producto is Micro)
+                {
+                    Program.getEmpresa().buscarMicro(producto.nombre).stock -= 1;
+                }
+                else if (producto is Memoria)
+                {
+                    Program.getEmpresa().buscarMemoria(producto.nombre).stock -= 1;
+                } 
+                else if (producto is Disco)
+                {
+                    Program.getEmpresa().buscarDisco(producto.nombre).stock -= 1;
+                }
+            }
+            inicio = new frmInicio();
+            this.Hide();
+            inicio.Show();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -56,6 +93,17 @@ namespace Proyecto_programacion_3
             {
                 Application.ExitThread();
             }
+        }
+
+        private void frmPago_Load(object sender, EventArgs e)
+        {
+            var listaCompras = Program.getEmpresa().listacompras;
+            double total = 0;
+            foreach(componente producto in listaCompras)
+            {
+                total += producto.precio;
+            }
+            totalPago.Text = total.ToString();
         }
     }
 }

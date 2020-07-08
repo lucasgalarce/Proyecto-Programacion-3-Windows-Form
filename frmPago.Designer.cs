@@ -30,11 +30,12 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.efectivo = new System.Windows.Forms.RadioButton();
+            this.tarjCredito = new System.Windows.Forms.RadioButton();
+            this.tarjDebito = new System.Windows.Forms.RadioButton();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.totalPago = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -56,40 +57,40 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Total";
             // 
-            // radioButton1
+            // efectivo
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(34, 67);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 17);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Efectivo";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.efectivo.AutoSize = true;
+            this.efectivo.Location = new System.Drawing.Point(34, 67);
+            this.efectivo.Name = "efectivo";
+            this.efectivo.Size = new System.Drawing.Size(64, 17);
+            this.efectivo.TabIndex = 1;
+            this.efectivo.TabStop = true;
+            this.efectivo.Text = "Efectivo";
+            this.efectivo.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // tarjCredito
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(138, 67);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(108, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Tarjeta de credito";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.tarjCredito.AutoSize = true;
+            this.tarjCredito.Location = new System.Drawing.Point(138, 67);
+            this.tarjCredito.Name = "tarjCredito";
+            this.tarjCredito.Size = new System.Drawing.Size(108, 17);
+            this.tarjCredito.TabIndex = 2;
+            this.tarjCredito.TabStop = true;
+            this.tarjCredito.Text = "Tarjeta de credito";
+            this.tarjCredito.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // tarjDebito
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.SystemColors.Control;
-            this.radioButton3.Location = new System.Drawing.Point(277, 67);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(105, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Tarjeta de debito";
-            this.radioButton3.UseVisualStyleBackColor = false;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.tarjDebito.AutoSize = true;
+            this.tarjDebito.BackColor = System.Drawing.SystemColors.Control;
+            this.tarjDebito.Location = new System.Drawing.Point(277, 67);
+            this.tarjDebito.Name = "tarjDebito";
+            this.tarjDebito.Size = new System.Drawing.Size(105, 17);
+            this.tarjDebito.TabIndex = 3;
+            this.tarjDebito.TabStop = true;
+            this.tarjDebito.Text = "Tarjeta de debito";
+            this.tarjDebito.UseVisualStyleBackColor = false;
+            this.tarjDebito.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // linkLabel1
             // 
@@ -113,21 +114,31 @@
             this.linkLabel2.Text = "Cerrar Sesion";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
+            // totalPago
+            // 
+            this.totalPago.Enabled = false;
+            this.totalPago.Location = new System.Drawing.Point(84, 27);
+            this.totalPago.Name = "totalPago";
+            this.totalPago.Size = new System.Drawing.Size(113, 20);
+            this.totalPago.TabIndex = 7;
+            // 
             // frmPago
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 202);
+            this.Controls.Add(this.totalPago);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.tarjDebito);
+            this.Controls.Add(this.tarjCredito);
+            this.Controls.Add(this.efectivo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "frmPago";
             this.Text = "Pago";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPago_FormClosing);
+            this.Load += new System.EventHandler(this.frmPago_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,10 +148,11 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton efectivo;
+        private System.Windows.Forms.RadioButton tarjCredito;
+        private System.Windows.Forms.RadioButton tarjDebito;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.TextBox totalPago;
     }
 }

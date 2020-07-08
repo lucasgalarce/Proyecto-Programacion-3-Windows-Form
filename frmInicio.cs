@@ -17,7 +17,7 @@ namespace Proyecto_programacion_3
         private frmPago pago;
         private frmLogin login;
 
-        List<componente> listacompras = new List<componente>();
+        //List<componente> listacompras = new List<componente>();
 
 
         public frmInicio()
@@ -42,16 +42,15 @@ namespace Proyecto_programacion_3
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            contacto = new frmContacto();
             contacto.Show();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
             pago = new frmPago();
             pago.Show();
             Hide();
-
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -72,7 +71,7 @@ namespace Proyecto_programacion_3
 
         private void frmInicio_Load(object sender, EventArgs e)
         {
-            
+            Program.getEmpresa().listacompras.Clear();
             groupMicros1.Location = new Point(73, 189);
             groupMother1.Location = new Point(73, 189);
             groupMemoria1.Location = new Point(73, 189);
@@ -199,7 +198,6 @@ namespace Proyecto_programacion_3
                 }
                 contador++;
             }
-
         }
 
         private void Micro1_Click(object sender, EventArgs e)
@@ -230,21 +228,19 @@ namespace Proyecto_programacion_3
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             Mother temporal = Program.getEmpresa().buscarMother("Gigabyte 320");
+
             if (checkBoxMother2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMother2.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMother2.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMother2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother2.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMother2.Text = (temporal.stock).ToString();
             }
-
-            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -258,17 +254,15 @@ namespace Proyecto_programacion_3
             if (checkBoxMicro1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMicro1.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMicro1.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMicro1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro1.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMicro1.Text = (temporal.stock).ToString();
             }            
-
         }
 
         private void checkBoxMicro2_CheckedChanged(object sender, EventArgs e)
@@ -277,14 +271,13 @@ namespace Proyecto_programacion_3
             if (checkBoxMicro2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMicro2.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMicro2.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMicro2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro2.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMicro2.Text = (temporal.stock).ToString();
             }
         }
@@ -295,14 +288,13 @@ namespace Proyecto_programacion_3
             if (checkBoxMicro3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMicro3.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMicro3.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMicro3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro3.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMicro3.Text = (temporal.stock).ToString();
             }
         }
@@ -313,14 +305,13 @@ namespace Proyecto_programacion_3
             if (checkBoxMicro4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMicro1.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMicro4.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMicro4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMicro1.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMicro4.Text = (temporal.stock).ToString();
             }
         }
@@ -331,17 +322,15 @@ namespace Proyecto_programacion_3
             if (checkBoxMemoria1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo1.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMemo1.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMemoria1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo1.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMemo1.Text = (temporal.stock).ToString();
             }
-
         }
 
         private void checkBoxMother1_CheckedChanged(object sender, EventArgs e)
@@ -351,19 +340,16 @@ namespace Proyecto_programacion_3
 
             if(checkBoxMother1.Checked)
             {
-
                 precioTotal.Text = (Int32.Parse(precioMother1.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMother1.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMother1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother1.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMother1.Text = (temporal.stock).ToString();
             }
-
         }
 
         private void checkBoxMother3_CheckedChanged(object sender, EventArgs e)
@@ -372,14 +358,13 @@ namespace Proyecto_programacion_3
             if (checkBoxMother3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMother3.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMother3.Text = (temporal.stock - 1).ToString();
-
             }
             else if (!checkBoxMother3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother3.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMother3.Text = (temporal.stock).ToString();
             }
         }
@@ -390,14 +375,14 @@ namespace Proyecto_programacion_3
             if (checkBoxMother4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMother4.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMother4.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxMother4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMother4.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMother4.Text = (temporal.stock).ToString();
             }
         }
@@ -409,13 +394,13 @@ namespace Proyecto_programacion_3
             if (checkBoxMemoria2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo2.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMemo2.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxMemoria2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo2.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMemo2.Text = (temporal.stock).ToString();
             }
         }
@@ -427,14 +412,14 @@ namespace Proyecto_programacion_3
             if (checkBoxMemoria3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo3.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMemo3.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxMemoria3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo3.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMemo3.Text = (temporal.stock).ToString();
             }
         }
@@ -446,13 +431,13 @@ namespace Proyecto_programacion_3
             if (checkBoxMemoria4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioMemo4.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockMemo4.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxMemoria4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioMemo4.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockMemo4.Text = (temporal.stock).ToString();
             }
         }
@@ -464,14 +449,14 @@ namespace Proyecto_programacion_3
             if (checkBoxDisco1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco1.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockDisco1.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxDisco1.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco1.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockDisco1.Text = (temporal.stock).ToString();
             }
         }
@@ -483,13 +468,13 @@ namespace Proyecto_programacion_3
             if (checkBoxDisco2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco2.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockDisco2.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxDisco2.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco2.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockDisco2.Text = (temporal.stock).ToString();
             }
         }
@@ -501,13 +486,13 @@ namespace Proyecto_programacion_3
             if (checkBoxDisco3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco3.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockDisco3.Text = (temporal.stock - 1).ToString();
             }
             else if (!checkBoxDisco3.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco3.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockDisco3.Text = (temporal.stock).ToString();
             }
         }
@@ -519,14 +504,14 @@ namespace Proyecto_programacion_3
             if (checkBoxDisco4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioDisco4.Text) + Int32.Parse(precioTotal.Text)).ToString();
-                listacompras.Add(temporal);
+                Program.getEmpresa().listacompras.Add(temporal);
                 stockDisco4.Text = (temporal.stock - 1).ToString();
 
             }
             else if (!checkBoxDisco4.Checked)
             {
                 precioTotal.Text = (Int32.Parse(precioTotal.Text) - Int32.Parse(precioDisco4.Text)).ToString();
-                listacompras.Remove(temporal);
+                Program.getEmpresa().listacompras.Remove(temporal);
                 stockDisco4.Text = (temporal.stock).ToString();
             }
         }

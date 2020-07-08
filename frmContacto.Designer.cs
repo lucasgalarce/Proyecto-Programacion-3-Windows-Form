@@ -39,9 +39,9 @@
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(73, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 18);
+            this.label1.Size = new System.Drawing.Size(235, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "E-mail: pepito@gmail.com";
+            this.label1.Text = "E-mail: westbyte@gmail.com";
             // 
             // label2
             // 
@@ -75,6 +75,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contacto";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmContacto_FormClosed);
+            this.Load += new System.EventHandler(this.frmContacto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

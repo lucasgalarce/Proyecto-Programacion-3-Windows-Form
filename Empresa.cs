@@ -35,11 +35,9 @@ namespace Proyecto_programacion_3
         public int stock;
         public componente(string nombre, double precio, int stock)
         {
-
             this.nombre = nombre;
             this.precio = precio;            
             this.stock = stock;
-
         }
             
 }
@@ -110,6 +108,8 @@ namespace Proyecto_programacion_3
         public List<Mother> mothersRepo;
         public List<Disco> discosRepo;
         public List<Memoria> memosRepo;
+        public List<componente> listacompras;
+
 
         public Empresa()
         {   
@@ -118,6 +118,8 @@ namespace Proyecto_programacion_3
             mothersRepo = new List<Mother>();
             discosRepo = new List<Disco>();
             memosRepo = new List<Memoria>();
+            listacompras = new List<componente>();
+
 
             Usuario administrador = new Usuario("admin", "admin");
             usuariosRepo.Add(administrador);
